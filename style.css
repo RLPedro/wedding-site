@@ -1,3 +1,6 @@
+/* =========================================
+   1. FONTS & VARIABLES
+========================================= */
 @font-face {
     font-family: 'ABC Diatype Mono';
     src: url('assets/fonts/ABCDiatypeMono-Regular-Trial.otf') format('opentype');
@@ -21,6 +24,9 @@
     --font-page: 'Caudex', serif;
 }
 
+/* =========================================
+   2. GLOBAL & BASE STYLES
+========================================= */
 body {
     background-color: var(--bg-color);
     margin: 0;
@@ -37,7 +43,71 @@ body {
     position: relative;
 }
 
-/* Language Switcher */
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    line-height: 1;
+    color: var(--color-primary);
+}
+
+p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* =========================================
+   3. LAYOUT SHELL
+========================================= */
+.side-info {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    z-index: 10;
+    text-align: left;
+}
+
+.paper-container {
+    width: calc(100vw - 320px);
+    max-width: 1400px;
+    height: 85vh;
+    padding: 15px;
+    font-family: var(--font-page);
+    background-color: var(--paper-color);
+    background-image:
+        url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.3'/%3E%3C/svg%3E"),
+        linear-gradient(to bottom right, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.05)),
+        radial-gradient(circle at 50% 50%, transparent 80%, rgba(105, 43, 77, 0.03));
+    border-radius: 2px 255px 3px 25px / 255px 5px 225px 3px;
+    box-shadow:
+        20px 20px 60px rgba(0, 0, 0, 0.05),
+        10px 10px 20px rgba(0, 0, 0, 0.02);
+    position: relative;
+    text-align: center;
+    border: none;
+}
+
+/* Vignette overlay */
+.paper-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    background: radial-gradient(circle at 20% 30%, rgba(0, 0, 0, 0.01) 0%, transparent 20%),
+        radial-gradient(circle at 80% 80%, rgba(0, 0, 0, 0.01) 0%, transparent 20%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* =========================================
+   4. SIDEBAR COMPONENTS
+========================================= */
 .language-switcher {
     display: flex;
     flex-direction: column;
@@ -51,12 +121,9 @@ body {
     cursor: pointer;
     font-family: var(--font-main);
     font-size: 0.9rem;
-    /* Match menu size */
     color: var(--color-secondary);
-    /* Blue color */
     opacity: 0.6;
     padding: 5px 0;
-    /* Vertical padding */
     text-transform: uppercase;
     transition: opacity 0.3s ease;
 }
@@ -68,34 +135,6 @@ body {
     font-weight: bold;
 }
 
-/* Side Info Container (Menu + Stamp) */
-.side-info {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    z-index: 10;
-    text-align: left;
-}
-
-/* Address Box - Top Left */
-.address-info {
-    font-size: 0.75rem;
-    line-height: 1.4;
-    color: var(--color-primary);
-}
-
-.address-label {
-    /* margin-bottom: 10px; */
-    display: block;
-    color: var(--color-secondary);
-    font-size: 0.7rem;
-    letter-spacing: 0.5px;
-}
-
-/* Main Menu Styles */
 .main-menu ul {
     list-style: none;
     padding: 0;
@@ -120,88 +159,36 @@ body {
     color: var(--color-secondary);
 }
 
-.sub-menu {
+.main-menu .sub-menu {
     display: none;
     list-style: none;
-    padding-left: 15px;
-    margin-top: 10px;
+    padding-left: 20px;
+    margin-top: 4px;
     margin-bottom: 0;
 }
 
-.sub-menu li {
-    margin-bottom: 8px;
+.main-menu .sub-menu li {
+    margin-bottom: 2px;
 }
 
-.sub-menu a {
+.main-menu .sub-menu a {
     font-size: 0.8rem;
     color: var(--color-primary);
     opacity: 0.8;
 }
 
-.sub-menu a:hover {
+.main-menu .sub-menu a:hover {
     opacity: 1;
     color: var(--color-secondary);
 }
 
-/* Rugged Paper Container */
-.paper-container {
-    width: calc(100vw - 320px);
-    max-width: 1400px;
-    height: 85vh;
-    padding: 15px;
-    font-family: var(--font-page);
-
-    /* Beige background with STRONGER noise texture */
-    background-color: var(--paper-color);
-    background-image:
-        url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.3'/%3E%3C/svg%3E"),
-        linear-gradient(to bottom right, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.05)),
-        radial-gradient(circle at 50% 50%, transparent 80%, rgba(105, 43, 77, 0.03));
-    /* Vignette */
-
-    /* Variable border radius for rugged organic shape */
-    border-radius: 2px 255px 3px 25px / 255px 5px 225px 3px;
-
-    /* Rough shadow */
-    box-shadow:
-        20px 20px 60px rgba(0, 0, 0, 0.05),
-        10px 10px 20px rgba(0, 0, 0, 0.02);
-
-    position: relative;
-    text-align: center;
-    border: none;
-}
-
-.hero-svg-container {
-    position: absolute;
-    bottom: 45px;
-    top: auto;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 130px;
-    height: 130px;
-    /* Even smaller */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    cursor: pointer;
-}
-
-.hero-svg {
-    width: 100%;
-    height: 100%;
-    color: var(--color-primary);
-    /* Sets fill="currentColor" */
-}
-
-/* Corner Positioning */
+/* =========================================
+   5. PAPER COMPONENTS
+========================================= */
 .date-corner {
     position: absolute;
     top: 35px;
     left: 45px;
-    /* More centered */
-    right: auto;
     font-size: 1rem;
     font-weight: bold;
     color: var(--color-primary);
@@ -213,8 +200,6 @@ body {
     position: absolute;
     top: 35px;
     right: 45px;
-    /* More centered */
-    left: auto;
     font-size: 1rem;
     font-weight: bold;
     color: var(--color-primary);
@@ -224,61 +209,34 @@ body {
     z-index: 10;
 }
 
-/* Hide original consolidated styles */
-.date,
-.location,
-.address-info,
-.address-label {
-    display: none;
-}
-
-/* Add an overlay to enhance the texture/stains */
-.paper-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: inherit;
-    background: radial-gradient(circle at 20% 30%, rgba(0, 0, 0, 0.01) 0%, transparent 20%),
-        radial-gradient(circle at 80% 80%, rgba(0, 0, 0, 0.01) 0%, transparent 20%);
-    pointer-events: none;
-    z-index: 1;
-}
-
-header {
-    /* Language switcher moved out */
-    display: none;
-}
-
-h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    /* margin: 40px 0 20px; */
-    letter-spacing: -1px;
-    line-height: 1;
-    color: var(--color-primary);
-}
-
-p {
-    margin: 0;
-    line-height: 1.5;
-}
-
 #quinta-text,
 #date-text {
     width: 200px;
 }
 
-.date,
-.location {
-    color: var(--color-primary);
-    /* Main text color now */
-    font-size: 1rem;
-    margin-bottom: 5px;
+/* Hero Stamp */
+.hero-svg-container {
+    position: absolute;
+    bottom: 45px;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    cursor: pointer;
 }
 
+.hero-svg {
+    width: 100%;
+    height: 100%;
+    color: var(--color-primary);
+}
+
+/* Content Area */
 #main-content {
     position: absolute;
     top: 110px;
@@ -288,6 +246,10 @@ p {
     padding: 0;
     text-align: justify;
     overflow-y: auto;
+}
+
+#main-content section {
+    margin-bottom: 40px;
 }
 
 .landing-content {
@@ -305,10 +267,6 @@ p {
     letter-spacing: 2px;
     font-weight: normal;
     margin: 0;
-}
-
-#main-content section {
-    margin-bottom: 40px;
 }
 
 .section-title {
@@ -342,18 +300,21 @@ p {
     text-align: justify;
 }
 
-/* Mobile responsiveness for absolute elements */
-/* Mobile responsiveness for absolute elements */
-@media (max-width: 800px) {
-    .side-info {
-        position: static;
-        text-align: center;
-        margin: 30px 0;
-        align-items: center;
-        width: 100%;
-        order: -1;
-    }
+/* =========================================
+   6. UTILITIES / HIDDEN ELEMENTS
+========================================= */
+header,
+.date,
+.location,
+.address-info,
+.address-label {
+    display: none;
+}
 
+/* =========================================
+   7. MEDIA QUERIES
+========================================= */
+@media (max-width: 800px) {
     body {
         flex-direction: column;
         justify-content: flex-start;
@@ -361,8 +322,13 @@ p {
         padding-right: 0;
     }
 
-    .landing-title {
-        font-size: 2.8rem;
+    .side-info {
+        position: static;
+        text-align: center;
+        margin: 30px 0;
+        align-items: center;
+        width: 100%;
+        order: -1;
     }
 
     .language-switcher {
@@ -375,5 +341,9 @@ p {
         width: 85%;
         padding: 40px 20px;
         margin-bottom: 40px;
+    }
+
+    .landing-title {
+        font-size: 2.8rem;
     }
 }
