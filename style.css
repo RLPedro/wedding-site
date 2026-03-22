@@ -329,6 +329,7 @@ header,
     /* -- Sidebar → Top Navigation -- */
     .side-info {
         position: static;
+        z-index: 100;
         box-sizing: border-box;
         width: 100%;
         order: -1;
@@ -408,6 +409,8 @@ header,
         margin: 10px 15px 0;
         padding: 15px;
         border-radius: 2px 20px 3px 8px / 20px 5px 18px 3px;
+        position: relative;
+        z-index: 1;
     }
 
     /* -- Corner Elements -- */
