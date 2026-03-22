@@ -5,24 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding Invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="language-switcher top-right">
-        <button onclick="setLanguage('en')" id="btn-en">English</button>
-        <button onclick="setLanguage('pt')" id="btn-pt">Português</button>
-        <button onclick="setLanguage('se')" id="btn-se">Svenska</button>
-    </nav>
-
     <div class="side-info">
         <nav class="main-menu">
             <ul>
-                <li><a href="#" data-i18n="menuHowTo">Arriving</a></li>
-                <li><a href="#" data-i18n="menuSchedule">Schedule</a></li>
+                <li><a href="#venue" data-i18n="menuVenue">Venue</a></li>
+                <li><a href="#how-to-get-there" data-i18n="menuHowTo">How to get there</a></li>
+                <li><a href="#accommodation" data-i18n="menuAccommodation">Accommodation</a></li>
+                <li>
+                    <a href="#" id="about-the-day-link" data-i18n="menuAboutTheDay">About the day</a>
+                    <ul class="sub-menu" id="about-submenu">
+                        <li><a href="#toastmasters" data-i18n="menuToastmasters">Toastmasters</a></li>
+                        <li><a href="#ceremony" data-i18n="menuCeremony">Ceremony</a></li>
+                        <li><a href="#food-drinks" data-i18n="menuFoodDrinks">Food &amp; drinks</a></li>
+                        <li><a href="#children" data-i18n="menuChildren">Children</a></li>
+                        <li><a href="#speeches" data-i18n="menuSpeeches">Speeches</a></li>
+                        <li><a href="#shuttle-taxi" data-i18n="menuShuttleTaxi">Shuttle taxi</a></li>
+                    </ul>
+                </li>
                 <li><a href="#" data-i18n="menuDressCode">Dress code</a></li>
                 <li><a href="#" data-i18n="menuGifts">Gifts</a></li>
             </ul>
+        </nav>
+        <nav class="language-switcher">
+            <button onclick="setLanguage('en')" id="btn-en">English</button>
+            <button onclick="setLanguage('pt')" id="btn-pt">Português</button>
+            <button onclick="setLanguage('se')" id="btn-se">Svenska</button>
         </nav>
     </div>
 
@@ -86,30 +101,10 @@
             </div>
         </div>
 
-        <main>
-            <section id="content-pt" class="lang-content">
-                <br />
-                <br />
-                <br />
-                <p>Mais detalhes em breve.</p>
-            </section>
-
-            <section id="content-en" class="lang-content" style="display: none;">
-                <br />
-                <br />
-                <br />
-                <p>More details coming soon.</p>
-            </section>
-
-            <section id="content-se" class="lang-content" style="display: none;">
-                <br />
-                <br />
-                <br />
-                <p>Mer detaljer kommer snart.</p>
-            </section>
-        </main>
+        <main id="main-content"></main>
     </div>
 
+    <script src="content.js"></script>
     <script src="script.js"></script>
 </body>
 

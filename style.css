@@ -18,6 +18,7 @@
     --paper-color: #f7f5f0;
     --bg-color: #ffffff;
     --font-main: 'ABC Diatype Mono', 'Space Mono', 'Roboto Mono', monospace;
+    --font-page: 'Caudex', serif;
 }
 
 body {
@@ -25,9 +26,10 @@ body {
     margin: 0;
     max-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-start;
     padding-top: 40px;
+    padding-right: 40px;
     font-family: var(--font-main);
     color: var(--color-primary);
     text-transform: uppercase;
@@ -35,19 +37,12 @@ body {
     position: relative;
 }
 
-/* Top Right Language Switcher */
-.language-switcher.top-right {
-    position: absolute;
-    top: 40px;
-    right: 40px;
+/* Language Switcher */
+.language-switcher {
     display: flex;
     flex-direction: column;
-    /* Vertical alignment */
-    align-items: flex-end;
-    /* Align to the right */
+    align-items: flex-start;
     gap: 5px;
-    /* Tighter gap */
-    z-index: 20;
 }
 
 .language-switcher button {
@@ -125,11 +120,36 @@ body {
     color: var(--color-secondary);
 }
 
+.sub-menu {
+    display: none;
+    list-style: none;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.sub-menu li {
+    margin-bottom: 8px;
+}
+
+.sub-menu a {
+    font-size: 0.8rem;
+    color: var(--color-primary);
+    opacity: 0.8;
+}
+
+.sub-menu a:hover {
+    opacity: 1;
+    color: var(--color-secondary);
+}
+
 /* Rugged Paper Container */
 .paper-container {
-    width: 75%;
+    width: calc(100vw - 320px);
+    max-width: 1400px;
     height: 85vh;
     padding: 15px;
+    font-family: var(--font-page);
 
     /* Beige background with STRONGER noise texture */
     background-color: var(--paper-color);
@@ -152,29 +172,20 @@ body {
     border: none;
 }
 
-/* Paper Header Layout */
-.paper-header {
-    position: relative;
-}
-
-h1 {
-    margin: 0;
-}
-
 .hero-svg-container {
     position: absolute;
-    top: 10px;
-    /* Higher */
+    bottom: 45px;
+    top: auto;
     left: 50%;
     transform: translateX(-50%);
-    width: 180px;
-    /* Even smaller */
-    height: 180px;
+    width: 130px;
+    height: 130px;
     /* Even smaller */
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    cursor: pointer;
 }
 
 .hero-svg {
@@ -187,9 +198,8 @@ h1 {
 /* Corner Positioning */
 .date-corner {
     position: absolute;
-    top: 45px;
-    /* Lower */
-    left: 80px;
+    top: 35px;
+    left: 45px;
     /* More centered */
     right: auto;
     font-size: 1rem;
@@ -201,9 +211,8 @@ h1 {
 
 .address-corner {
     position: absolute;
-    top: 45px;
-    /* Lower */
-    right: 80px;
+    top: 35px;
+    right: 45px;
     /* More centered */
     left: auto;
     font-size: 1rem;
@@ -244,6 +253,7 @@ header {
 }
 
 h1 {
+    margin: 0;
     font-size: 2.5rem;
     /* margin: 40px 0 20px; */
     letter-spacing: -1px;
@@ -269,20 +279,67 @@ p {
     margin-bottom: 5px;
 }
 
-.lang-content {
-    margin-top: 100px;
+#main-content {
+    position: absolute;
+    top: 110px;
+    bottom: 230px;
+    left: 45px;
+    right: 45px;
+    padding: 0;
+    text-align: justify;
+    overflow-y: auto;
 }
 
-/* Ensure secondary color is used for specific small details if needed, 
-   but user asked for blue for small details. */
-.lang-content p:last-child {
-    margin-top: 50px;
-    font-size: 0.75rem;
+.landing-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.landing-title {
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#main-content section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 1.25rem;
     color: var(--color-secondary);
-    /* Blue for the 'more details' or footer text */
-    border-top: 1px solid var(--color-secondary);
-    display: inline-block;
-    padding-top: 15px;
+    letter-spacing: 1px;
+    margin: 0 0 16px;
+    text-transform: uppercase;
+}
+
+.content-block {
+    margin-bottom: 24px;
+}
+
+.section-subtitle {
+    font-size: 1.15rem;
+    color: var(--color-primary);
+    margin: 0 0 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.section-body {
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 1.7;
+    text-transform: none;
+    color: var(--color-primary);
+    margin: 0 0 12px;
+    text-align: justify;
 }
 
 /* Mobile responsiveness for absolute elements */
@@ -297,17 +354,21 @@ p {
         order: -1;
     }
 
-    .language-switcher.top-right {
-        position: static;
-        justify-content: center;
-        margin-top: 20px;
-        width: 100%;
-    }
-
     body {
         flex-direction: column;
         justify-content: flex-start;
         padding-top: 10px;
+        padding-right: 0;
+    }
+
+    .landing-title {
+        font-size: 2.8rem;
+    }
+
+    .language-switcher {
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
     }
 
     .paper-container {
