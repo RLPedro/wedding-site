@@ -324,6 +324,7 @@ header,
         min-height: 100vh;
         max-height: none;
         overflow-y: auto;
+        overflow-x: hidden;
     }
 
     /* -- Sidebar → Top Navigation -- */
@@ -402,6 +403,7 @@ header,
 
     /* -- Paper Container -- */
     .paper-container {
+        box-sizing: border-box;
         width: calc(100vw - 30px);
         height: auto;
         min-height: 0;
