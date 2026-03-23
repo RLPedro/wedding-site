@@ -408,7 +408,7 @@ header,
         height: auto;
         min-height: 0;
         flex: 1;
-        margin: 10px 15px 0;
+        margin: 5px 15px 20px; /* Brought closer to top, added bottom margin to see the edge */
         padding: 15px;
         border-radius: 2px 20px 3px 8px / 20px 5px 18px 3px;
         position: relative;
