@@ -321,10 +321,10 @@ header,
         align-items: center;
         justify-content: flex-start;
         padding: 0;
-        min-height: 100vh;
-        max-height: none;
-        overflow-y: auto;
-        overflow-x: hidden;
+        height: 100vh;      /* Fallback fallback */
+        height: 100dvh;     /* Fixes mobile safari bottom bar overflow */
+        max-height: 100dvh;
+        overflow: hidden;   /* Strict static layout */
     }
 
     /* -- Sidebar → Top Navigation -- */
@@ -444,14 +444,14 @@ header,
 
     /* -- Content Area -- */
     #main-content {
-        position: relative;
-        top: auto;
-        bottom: auto;
-        left: auto;
-        right: auto;
-        margin: 80px 20px 120px;
+        position: absolute;
+        top: 70px;
+        bottom: 120px;
+        left: 20px;
+        right: 20px;
+        margin: 0;
         padding: 0;
-        overflow-y: visible;
+        overflow-y: auto; /* Re-enabled internal scrolling */
     }
 
     /* -- Typography Adjustments -- */

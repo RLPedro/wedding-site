@@ -39,12 +39,10 @@ function bindMenuLinks() {
         link.addEventListener('click', e => {
             e.preventDefault();
             
-            // Close submenus when clicking a main-level link
-            if (!link.closest('.sub-menu')) {
-                const aboutSubmenu = document.getElementById('about-submenu');
-                if (aboutSubmenu) {
-                    aboutSubmenu.style.display = 'none';
-                }
+            // Close the submenu when clicking any link
+            const aboutSubmenu = document.getElementById('about-submenu');
+            if (aboutSubmenu) {
+                aboutSubmenu.style.display = 'none';
             }
 
             showSection(sectionId);
