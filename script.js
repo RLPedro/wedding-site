@@ -31,6 +31,14 @@ function showSection(sectionId) {
     `;
 }
 
+function closeAllSubmenus(exceptSubmenu) {
+    document.querySelectorAll('.sub-menu').forEach(submenu => {
+        if (submenu !== exceptSubmenu) {
+            submenu.style.display = 'none';
+        }
+    });
+}
+
 function bindMenuLinks() {
     document.querySelectorAll('.main-menu a[href^="#"]').forEach(link => {
         const sectionId = link.getAttribute('href').slice(1);
@@ -39,32 +47,42 @@ function bindMenuLinks() {
         link.addEventListener('click', e => {
             e.preventDefault();
             
-            // Close the submenu when clicking any link
-            const aboutSubmenu = document.getElementById('about-submenu');
-            if (aboutSubmenu) {
-                aboutSubmenu.style.display = 'none';
-            }
+            // Close any submenu that doesn't contain this link
+            document.querySelectorAll('.sub-menu').forEach(submenu => {
+                if (!submenu.contains(link)) {
+                    submenu.style.display = 'none';
+                }
+            });
 
             showSection(sectionId);
         });
     });
 
-    const aboutLink = document.getElementById('about-the-day-link');
-    const aboutSubmenu = document.getElementById('about-submenu');
-    if (aboutLink && aboutSubmenu) {
-        aboutLink.addEventListener('click', e => {
-            e.preventDefault();
-            aboutSubmenu.style.display = aboutSubmenu.style.display === 'block' ? 'none' : 'block';
-        });
-    }
+    // Set up toggle for each submenu parent link
+    const submenuToggles = [
+        { linkId: 'about-the-day-link', submenuId: 'about-submenu' },
+        { linkId: 'sightseeing-link', submenuId: 'sightseeing-submenu' }
+    ];
+
+    submenuToggles.forEach(({ linkId, submenuId }) => {
+        const link = document.getElementById(linkId);
+        const submenu = document.getElementById(submenuId);
+        if (link && submenu) {
+            link.addEventListener('click', e => {
+                e.preventDefault();
+                const isOpen = submenu.style.display === 'block';
+                closeAllSubmenus();
+                if (!isOpen) {
+                    submenu.style.display = 'block';
+                }
+            });
+        }
+    });
 
     const homeStamp = document.querySelector('.hero-svg-container');
     if (homeStamp) {
         homeStamp.addEventListener('click', () => {
-            const aboutSubmenu = document.getElementById('about-submenu');
-            if (aboutSubmenu) {
-                aboutSubmenu.style.display = 'none';
-            }
+            closeAllSubmenus();
             showLandingPage();
         });
     }
