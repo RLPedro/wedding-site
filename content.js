@@ -32,8 +32,8 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Se viajar do estrangeiro, o aeroporto mais próximo é o do Porto (OPO). A partir do Porto, pode viajar até Ponte de Lima de carro ou de autocarro, sendo que a viagem de carro demora cerca de 50 minutos.',
-                            'A partir de Ponte de Lima, siga pela estrada EN203 durante cerca de 3 km até chegar à Quinta do Outeiro. Se não tiver acesso a carro, por favor contacte [Nome] para ajudar a organizar boleia até à quinta no dia do casamento.'
+                            'Se viajares do estrangeiro, o aeroporto mais próximo é o do Porto (OPO). A partir do Porto, podes viajar até Ponte de Lima de carro ou de autocarro, sendo que a viagem de carro demora cerca de 50 minutos.',
+                            'A partir de Ponte de Lima, segue pela estrada EN203 durante cerca de 3 km até chegares à Quinta do Outeiro. Se não tiveres acesso a carro, por favor contacta [Nome] para ajudar a organizar boleia até à quinta no dia do casamento.'
                         ]
                     }
                 ]
@@ -44,8 +44,8 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Existem muitas opções de alojamento no centro de Ponte de Lima, incluindo hotéis, hostels e Airbnbs. Para os convidados que viajam de fora de Portugal, recomendamos vivamente ficar mais um ou dois dias para explorar Ponte de Lima e a região do Minho, conhecida pelas suas paisagens verdes, aldeias históricas, vinhas e gastronomia tradicional.',
-                            'A quinta também oferece quartos a curta distância a pé da propriedade por [preço] por noite. Se estiver interessado em reservar um destes quartos, por favor contacte-nos o mais brevemente possível.'
+                            'Existem muitas opções de alojamento no centro de Ponte de Lima, incluindo hotéis, hostels e Airbnbs. Para os convidados que viajam de fora de Portugal, recomendamos vivamente ficares mais um ou dois dias para explorares Ponte de Lima e a região do Minho, conhecida pelas suas paisagens verdes, aldeias históricas, vinhas e gastronomia tradicional.',
+                            'A quinta também oferece quartos a curta distância a pé da propriedade por [preço] por noite. Se estiveres interessado em reservar um destes quartos, por favor contacta-nos o mais brevemente possível.'
                         ]
                     }
                 ]
@@ -57,7 +57,7 @@ const translations = {
                     {
                         text: [
                             'Os toastmasters não são propriamente uma tradição em Portugal, mas são muito comuns na Suécia! Sem entrar em grandes diferenças culturais no que toca a festas… digamos apenas que os suecos gostam de garantir que tudo corre bem.',
-                            'É por isso que [Nome] e [Nome] estarão atentos ao longo do dia. Se tiver questões práticas como "Vou ser DJ mais tarde — posso verificar o equipamento?", "Há algum fraldário por aqui?" ou "Estou esfomeado — quando é que o jantar começa?" (muito improvável, mas mesmo assim!), não hesite em contactá-los.'
+                            'É por isso que [Nome] e [Nome] estarão atentos ao longo do dia. Se tiveres questões práticas como "Vou ser DJ mais tarde — posso verificar o equipamento?", "Há algum fraldário por aqui?" ou "Estou esfomeado — quando é que o jantar começa?" (muito improvável, mas mesmo assim!), não hesites em contactá-los.'
                         ]
                     }
                 ]
@@ -75,8 +75,8 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Ninguém passa fome num casamento português. Um conselho: nunca assuma que o último prato já foi servido — guarde sempre um bocadinho de espaço ao longo da noite!',
-                            'Se tiver restrições alimentares (como alergias alimentares ou dieta vegana/vegetariana), por favor informe-nos o mais brevemente possível.'
+                            'Ninguém passa fome num casamento português. Um conselho: nunca assumas que o último prato já foi servido — guarda sempre um bocadinho de espaço ao longo da noite!',
+                            'Se tiveres restrições alimentares (como alergias alimentares ou dieta vegana/vegetariana), por favor informa-nos o mais brevemente possível.'
                         ]
                     }
                 ]
@@ -99,7 +99,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Se quiser fazer um discurso, por favor fale com os toastmasters antes do casamento. Para brindes curtos, não é necessário avisar com antecedência.',
+                            'Se quiseres fazer um discurso, por favor fala com os toastmasters antes do casamento. Para brindes curtos, não é necessário avisar com antecedência.',
                             'Definição de discurso: falar durante mais de um minuto.'
                         ]
                     }
@@ -126,8 +126,8 @@ const translations = {
                     {
                         subtitle: 'Turismo histórico',
                         text: [
-                            '<strong>Sé (Catedral)</strong><br>Se só vai visitar uma igreja, recomendamos esta. Tem também um miradouro muito bonito!',
-                            '<strong>Passeios gratuitos pela cidade</strong><br>Uma forma muito agradável de ter uma visão geral dos principais pontos de interesse e da história do Porto. Bónus se tiverem a Inês Garrido como guia!'
+                            '<strong>Sé (Catedral)</strong><br>Se só vais visitar uma igreja, recomendamos esta. Tem também um miradouro muito bonito!',
+                            '<strong>Passeios gratuitos pela cidade</strong><br>Uma forma muito agradável de teres uma visão geral dos principais pontos de interesse e da história do Porto. Bónus se tiveres a Inês Garrido como guia!'
                         ]
                     },
                     {
@@ -139,7 +139,7 @@ const translations = {
                     {
                         subtitle: 'Arte e cultura',
                         text: [
-                            '<strong>Serralves – museu de arte contemporânea</strong><br>Por vezes tem exposições excelentes, verifiquem antes pois é bastante caro. Xxxx dia a entrada é gratuita. O jardim é adorável!',
+                            '<strong>Serralves – museu de arte contemporânea</strong><br>Por vezes tem exposições excelentes, verifica antes pois é bastante caro. Xxxx dia a entrada é gratuita. O jardim é adorável!',
                             '<strong>Xxxx – museu de teatro de marionetas</strong><br>Um museu de produções de teatro xxx. Pequeno mas muito giro e com bilhete barato.'
                         ]
                     }
