@@ -5,12 +5,10 @@ const translations = {
         menuHowTo: 'Como chegar',
         menuAccommodation: 'Alojamento',
         menuAboutTheDay: 'Sobre o dia',
-        menuToastmasters: 'Toastmasters',
         menuCeremony: 'Cerimónia',
         menuFoodDrinks: 'Comida e bebidas',
         menuChildren: 'Crianças',
         menuSpeeches: 'Discursos',
-        menuShuttleTaxi: 'Táxi/Shuttle',
         menuDressCode: 'Roupa',
         menuGifts: 'Presentes',
         menuSightseeing: 'O que visitar',
@@ -33,7 +31,7 @@ const translations = {
                     {
                         text: [
                             'Se viajares do estrangeiro, o aeroporto mais próximo é o do Porto (OPO). A partir do Porto, podes viajar até Ponte de Lima de carro ou de autocarro, sendo que a viagem de carro demora cerca de 50 minutos.',
-                            'A partir de Ponte de Lima, segue pela estrada EN203 durante cerca de 3 km até chegares à Quinta do Outeiro. Se não tiveres acesso a carro, por favor contacta [Nome] para ajudar a organizar boleia até à quinta no dia do casamento.'
+                            'A partir de Ponte de Lima, segue pela estrada EN203 durante cerca de 3 km até chegares à Quinta do Outeiro.'
                         ]
                     }
                 ]
@@ -46,18 +44,6 @@ const translations = {
                         text: [
                             'Existem muitas opções de alojamento no centro de Ponte de Lima, incluindo hotéis, hostels e Airbnbs. Para os convidados que viajam de fora de Portugal, recomendamos vivamente ficares mais um ou dois dias para explorares Ponte de Lima e a região do Minho, conhecida pelas suas paisagens verdes, aldeias históricas, vinhas e gastronomia tradicional.',
                             'A quinta também oferece quartos a curta distância a pé da propriedade por [preço] por noite. Se estiveres interessado em reservar um destes quartos, por favor contacta-nos o mais brevemente possível.'
-                        ]
-                    }
-                ]
-            },
-            {
-                id: 'toastmasters',
-                title: 'Toastmasters',
-                blocks: [
-                    {
-                        text: [
-                            'Os toastmasters não são propriamente uma tradição em Portugal, mas são muito comuns na Suécia! Sem entrar em grandes diferenças culturais no que toca a festas… digamos apenas que os suecos gostam de garantir que tudo corre bem.',
-                            'É por isso que [Nome] e [Nome] estarão atentos ao longo do dia. Se tiveres questões práticas como "Vou ser DJ mais tarde — posso verificar o equipamento?", "Há algum fraldário por aqui?" ou "Estou esfomeado — quando é que o jantar começa?" (muito improvável, mas mesmo assim!), não hesites em contactá-los.'
                         ]
                     }
                 ]
@@ -87,8 +73,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Queremos garantir que todos os convidados tenham um dia maravilhoso, incluindo as crianças. Haverá jogos e atividades nos jardins para os mais pequenos, com ou sem os pais.',
-                            'Haverá também uma sala de descanso — um espaço tranquilo para quem quiser deitar o seu filho sem ter de sair da festa.'
+                            'Queremos garantir que todos os convidados tenham um dia maravilhoso, incluindo as crianças. Haverá jogos e atividades nos jardins para os mais pequenos, com ou sem os pais.'
                         ]
                     }
                 ]
@@ -103,13 +88,6 @@ const translations = {
                             'Definição de discurso: falar durante mais de um minuto.'
                         ]
                     }
-                ]
-            },
-            {
-                id: 'shuttle-taxi',
-                title: 'Táxi/Shuttle',
-                blocks: [
-                    { text: ['Para os convidados que precisem de boleia de volta ao centro de Ponte de Lima após a festa, haverá um serviço de shuttle entre o local e a cidade ao longo da noite.'] }
                 ]
             },
             {
@@ -153,12 +131,10 @@ const translations = {
         menuHowTo: 'How to get there',
         menuAccommodation: 'Accommodation',
         menuAboutTheDay: 'About the day',
-        menuToastmasters: 'Toastmasters',
         menuCeremony: 'Ceremony',
         menuFoodDrinks: 'Food & drinks',
         menuChildren: 'Children',
         menuSpeeches: 'Speeches',
-        menuShuttleTaxi: 'Shuttle taxi',
         menuDressCode: 'Dress code',
         menuGifts: 'Gifts',
         menuSightseeing: 'Sightseeing',
@@ -181,7 +157,7 @@ const translations = {
                     {
                         text: [
                             'If you are traveling from abroad, the nearest airport is Porto (OPO). From Porto you can travel to Ponte de Lima either by car or by bus, which takes about 50 minutes by car.',
-                            'From Ponte de Lima, follow the EN203 road for about 3 km until you reach Quinta do Outeiro. If you do not have access to a car, please reach out to [Name] and they will help arrange a ride to the quinta on the day of the wedding.'
+                            'From Ponte de Lima, follow the EN203 road for about 3 km until you reach Quinta do Outeiro.'
                         ]
                     }
                 ]
@@ -194,18 +170,6 @@ const translations = {
                         text: [
                             'There are many accommodation options in central Ponte de Lima, including hotels, hostels, and Airbnbs. For guests traveling from outside Portugal, we highly recommend staying an extra day or two to explore Ponte de Lima and the surrounding Minho region, known for its green landscapes, historic villages, vineyards, and traditional cuisine.',
                             'The quinta also offers rooms within walking distance of the estate for [price] per night. If you are interested in booking one of these rooms, please contact us as soon as possible.'
-                        ]
-                    }
-                ]
-            },
-            {
-                id: 'toastmasters',
-                title: 'Toastmasters',
-                blocks: [
-                    {
-                        text: [
-                            'Toastmasters are not really a tradition in Portugal, but they are very common in Sweden! Without going too much into cultural differences when it comes to parties… let’s just say that Swedish people like to make sure everything runs smoothly.',
-                            'That’s why [Name] and [Name] will be keeping an eye on things throughout the day. If you have practical questions such as “I’ll be DJing later—can I check the equipment?”, “Is there a baby changing table somewhere?” or “I’m starving—when does dinner start?” (very unlikely, but still!), please don’t hesitate to reach out to them.'
                         ]
                     }
                 ]
@@ -235,8 +199,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'We want to make sure every guest has a lovely day, including children. There will be games and activities in the gardens for kids to enjoy, with or without their parents.',
-                            'There will also be a napping room—a quiet space for those who would like to put their child to bed without leaving the party.'
+                            'We want to make sure every guest has a lovely day, including children. There will be games and activities in the gardens for kids to enjoy, with or without their parents.'
                         ]
                     }
                 ]
@@ -251,13 +214,6 @@ const translations = {
                             'Definition of a speech: speaking for more than one minute.'
                         ]
                     }
-                ]
-            },
-            {
-                id: 'shuttle-taxi',
-                title: 'Shuttle taxi',
-                blocks: [
-                    { text: ['For guests who need a ride back to Ponte de Lima city centre after the party, a shuttle service will run between the venue and the city throughout the evening.'] }
                 ]
             },
             {
@@ -301,12 +257,10 @@ const translations = {
         menuHowTo: 'Hitta hit',
         menuAccommodation: 'Boende',
         menuAboutTheDay: 'Om dagen',
-        menuToastmasters: 'Toastmasters',
         menuCeremony: 'Vigsel',
         menuFoodDrinks: 'Mat & dryck',
         menuChildren: 'Barn',
         menuSpeeches: 'Tal',
-        menuShuttleTaxi: 'Shuttle/Taxi',
         menuDressCode: 'Klädkod',
         menuGifts: 'Gåvor',
         menuSightseeing: 'Sevärdheter',
@@ -319,7 +273,7 @@ const translations = {
                 id: 'venue',
                 title: 'Plats',
                 blocks: [
-                    { text: ['Bröllopet äger rum på Quinta do Outeiro, beläget cirka 3 kilometer utanför den historiska stadskärnan i Ponte de Lima. Det är en lantgård från 1700-talet med bevarade stenbyggnader och vackra omgivande trädgårdar.'] }
+                    { text: ['Bröllopet äger rum på Quinta do Outeiro, cirka 3 kilometer utanför Ponte de Lima. Det är en gård med anor från 1700-talet, bestående av ett flertal välbevarade stenbyggnader och omgivande trädgårdar.'] }
                 ]
             },
             {
@@ -328,8 +282,8 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Om du reser från utlandet är den närmaste flygplatsen Porto (OPO). Från Porto kan du ta dig till Ponte de Lima antingen med bil eller buss, och resan tar ungefär 50 minuter med bil.',
-                            'Från Ponte de Lima följer du väg EN203 i cirka 3 km tills du når Quinta do Outeiro. Om du inte har tillgång till bil, kontakta [Namn] så hjälper de till att ordna skjuts till quintan på bröllopsdagen.'
+                            'För gäster som reser från utlandet är den närmaste flygplatsen Porto (OPO). Från Porto kan du ta dig till Ponte de Lima antingen med bil eller buss, och resan tar ungefär 50 minuter med bil.',
+                            'Från Ponte de Lima följer du väg EN203 i cirka 3 km tills du når Quinta do Outeiro.'
                         ]
                     }
                 ]
@@ -340,20 +294,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Det finns många boendemöjligheter i centrala Ponte de Lima, inklusive hotell, vandrarhem och Airbnbs. För gäster som reser från utanför Portugal rekommenderar vi varmt att stanna en eller två extra dagar för att utforska Ponte de Lima och den omgivande Minho-regionen, känd för sina gröna landskap, historiska byar, vingårdar och traditionella matkultur.',
-                            'Quintan erbjuder även rum inom gångavstånd från gården för [pris] per natt. Om du är intresserad av att boka ett av dessa rum, vänligen kontakta oss så snart som möjligt.'
-                        ]
-                    }
-                ]
-            },
-            {
-                id: 'toastmasters',
-                title: 'Toastmasters',
-                blocks: [
-                    {
-                        text: [
-                            'Toastmasters är egentligen inte en tradition i Portugal, men de är väldigt vanliga i Sverige! Utan att gå in för mycket på kulturella skillnader när det gäller fester… låt oss bara säga att svenskar gillar att se till att allt flyter på smidigt.',
-                            'Därför kommer [Namn] och [Namn] att ha koll på saker under dagen. Om du har praktiska frågor som "Jag ska DJ:a senare — kan jag kolla utrustningen?", "Finns det ett skötbord någonstans?" eller "Jag är jättehungrig — när börjar middagen?" (mycket osannolikt, men ändå!), tveka inte att kontakta dem.'
+                            'Det finns många boendemöjligheter i centrala Ponte de Lima, inklusive hotell, vandrarhem och Airbnbs. För gäster som reser från utanför Portugal kan vi verkligen rekommendera att stanna en eller två extra dagar för att utforska Ponte de Lima och den omgivande Minho-regionen, känd för sina gröna landskap, historiska byar, vingårdar och traditionella kök.'
                         ]
                     }
                 ]
@@ -362,7 +303,7 @@ const translations = {
                 id: 'ceremony',
                 title: 'Vigsel',
                 blocks: [
-                    { text: ['Om vädret tillåter kommer vigseln att äga rum i trädgårdarna. Den hålls på engelska och tryckta program kommer att innehålla översättningar på svenska och portugisiska.'] }
+                    { text: ['Vigseln kommer att äga rum i trädgården bredvid själva festlokalen, om vädret tillåter. Den hålls på engelska, men det kommer att finnas programblad med svensk respektive portugisisk översättning så att alla kan hänga med.'] }
                 ]
             },
             {
@@ -371,8 +312,8 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Ingen går hungrig från ett portugisiskt bröllop. Ett tips: anta aldrig att den sista rätten har serverats — spara alltid lite plats under hela kvällen!',
-                            'Om du har kostrestriktioner (som matallergier eller vegansk/vegetarisk kost), vänligen meddela oss så snart som möjligt.'
+                            'Ingen går hungrig från ett portugisiskt bröllop. Ett tips: tänk aldrig att den sista rätten har serverats, utan spara alltid lite plats för något mer! Det kommer alltid mer.',
+                            'Om du har behov av specialkost (såsom allergier eller vegansk/vegetarisk kost), meddela oss gärna det så snart som möjligt.'
                         ]
                     }
                 ]
@@ -383,8 +324,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Vi vill se till att alla gäster har en härlig dag, inklusive barnen. Det kommer att finnas lekar och aktiviteter i trädgårdarna för barnen att njuta av, med eller utan sina föräldrar.',
-                            'Det kommer även att finnas ett vilorum — ett lugnt utrymme för den som vill lägga sitt barn utan att behöva lämna festen.'
+                            'Vi vill såklart att alla får en härlig dag, även de yngre gästerna. Det kommer därför att finnas spel och andra typer av aktiviteter i trädgården för barnen att roa sig med, med eller utan sina föräldrar.'
                         ]
                     }
                 ]
@@ -399,13 +339,6 @@ const translations = {
                             'Definition av tal: att prata i mer än en minut.'
                         ]
                     }
-                ]
-            },
-            {
-                id: 'shuttle-taxi',
-                title: 'Shuttle/Taxi',
-                blocks: [
-                    { text: ['För gäster som behöver skjuts tillbaka till Ponte de Limas stadskärna efter festen kommer en shuttleservice att gå mellan lokalen och staden under kvällen.'] }
                 ]
             },
             {
