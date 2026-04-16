@@ -14,6 +14,10 @@ const translations = {
         menuSightseeing: 'O que visitar',
         menuPonteDeLima: 'Ponte de Lima',
         menuPorto: 'Porto',
+        menuPortoHistory: 'Porto: História e Comida',
+        menuPortoGardens: 'Porto: Jardins',
+        menuPortoViews: 'Porto: Vistas e Passeios',
+        menuPortoCulture: 'Porto: Arte e Cultura',
         weddingDate: '19 SETEMBRO 2026',
         landingTitle: 'Vamos casar',
         sections: [
@@ -78,18 +82,7 @@ const translations = {
                     }
                 ]
             },
-            {
-                id: 'speeches',
-                title: 'Discursos',
-                blocks: [
-                    {
-                        text: [
-                            'Se quiseres fazer um discurso, por favor fala com os toastmasters antes do casamento. Para brindes curtos, não é necessário avisar com antecedência.',
-                            'Definição de discurso: falar durante mais de um minuto.'
-                        ]
-                    }
-                ]
-            },
+
             {
                 id: 'ponte-de-lima',
                 title: 'Ponte de Lima',
@@ -98,8 +91,8 @@ const translations = {
                 ]
             },
             {
-                id: 'porto',
-                title: 'Porto',
+                id: 'porto-history',
+                title: 'Porto: História e Comida',
                 blocks: [
                     {
                         subtitle: 'Turismo histórico',
@@ -113,11 +106,49 @@ const translations = {
                         text: [
                             '<strong>Gelateria Portuense</strong><br>O melhor gelado do Porto!'
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                id: 'porto-gardens',
+                title: 'Porto: Jardins',
+                blocks: [
+                    {
+                        subtitle: 'Jardins',
+                        text: [
+                            '<strong>Jardins do Palácio de Cristal</strong>',
+                            '<strong>Casa S. Roque e jardins</strong>',
+                            '<strong>Jardim Quinta da Prelada</strong> (livre)',
+                            '<strong>Jardim de Liége</strong> (na Foz)'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'porto-views',
+                title: 'Porto: Vistas e Passeios',
+                blocks: [
+                    {
+                        subtitle: 'Vistas e Passeios',
+                        text: [
+                            '<strong>Torre da igreja do Marquês</strong> (para ver as vistas)',
+                            '<strong>Elevador da Lada</strong> (junto à ponte D. Luís)',
+                            '<strong>Escadas do Monte dos Judeus</strong> (Ribeira)',
+                            '<strong>Calçada da Arrábida</strong> (para subir e ver as vistas do Douro)',
+                            '<strong>Foz</strong><br>Passear ou pedalar na Foz e apreciar o pôr do sol numa esplanada. Podes reservar bicicletas na loja <a href="https://www.tricla.pt/" target="_blank">Biclas&Triclas</a>.'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'porto-culture',
+                title: 'Porto: Arte e Cultura',
+                blocks: [
                     {
                         subtitle: 'Arte e cultura',
                         text: [
                             '<strong>Serralves – museu de arte contemporânea</strong><br>Por vezes tem exposições excelentes, verifica antes pois é bastante caro. Xxxx dia a entrada é gratuita. O jardim é adorável!',
+                            '<strong>Palacete Silva Monteiro</strong> (rua da Restauração)',
                             '<strong>Xxxx – museu de teatro de marionetas</strong><br>Um museu de produções de teatro xxx. Pequeno mas muito giro e com bilhete barato.'
                         ]
                     }
@@ -140,6 +171,10 @@ const translations = {
         menuSightseeing: 'Sightseeing',
         menuPonteDeLima: 'Ponte de Lima',
         menuPorto: 'Porto',
+        menuPortoHistory: 'Porto: History & Food',
+        menuPortoGardens: 'Porto: Gardens',
+        menuPortoViews: 'Porto: Views & Walks',
+        menuPortoCulture: 'Porto: Art & Culture',
         weddingDate: '19 SEPTEMBER 2026',
         landingTitle: 'We\'re getting married',
         sections: [
@@ -204,18 +239,7 @@ const translations = {
                     }
                 ]
             },
-            {
-                id: 'speeches',
-                title: 'Speeches',
-                blocks: [
-                    {
-                        text: [
-                            'If you would like to give a speech, please speak with the toastmasters before the wedding. For short toasts, there is no need to give advance notice.',
-                            'Definition of a speech: speaking for more than one minute.'
-                        ]
-                    }
-                ]
-            },
+
             {
                 id: 'ponte-de-lima',
                 title: 'Ponte de Lima',
@@ -224,8 +248,8 @@ const translations = {
                 ]
             },
             {
-                id: 'porto',
-                title: 'Porto',
+                id: 'porto-history',
+                title: 'Porto: History & Food',
                 blocks: [
                     {
                         subtitle: 'Historic sightseeing',
@@ -239,11 +263,49 @@ const translations = {
                         text: [
                             '<strong>Gelateria Portuense</strong><br>The very best gelato in Porto!'
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                id: 'porto-gardens',
+                title: 'Porto: Gardens',
+                blocks: [
+                    {
+                        subtitle: 'Gardens',
+                        text: [
+                            '<strong>Crystal Palace gardens</strong>',
+                            '<strong>Casa S. Roque and gardens</strong>',
+                            '<strong>Quinta da Prelada Garden</strong> (free entry)',
+                            '<strong>Liége garden</strong> (in Foz)'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'porto-views',
+                title: 'Porto: Views and Walks',
+                blocks: [
+                    {
+                        subtitle: 'Views and Walks',
+                        text: [
+                            '<strong>Marquês Church tower</strong> (for the views)',
+                            '<strong>Lada elevator</strong> (next to Luís I Bridge)',
+                            '<strong>Monte dos Judeus stairs</strong> (Ribeira)',
+                            '<strong>Calçada da Arrábida</strong> (to walk up and see the Douro views)',
+                            '<strong>Foz</strong><br>Stroll or cycle in Foz and enjoy the sunset at a terrace. You can rent bikes at <a href="https://www.tricla.pt/" target="_blank">Biclas&Triclas</a>.'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'porto-culture',
+                title: 'Porto: Art & Culture',
+                blocks: [
                     {
                         subtitle: 'Art and culture',
                         text: [
                             '<strong>Serralves – museum for contemporary art</strong><br>Great exhibitions sometimes, check beforehand as it\'s very pricey. Xxxx day it\'s free admission. The garden is lovely!',
+                            '<strong>Palacete Silva Monteiro</strong> (Rua da Restauração)',
                             '<strong>Xxxx – puppet theatre museum</strong><br>A museum of xxx theatre productions. Small but very cute and low admission fee.'
                         ]
                     }
@@ -266,6 +328,10 @@ const translations = {
         menuSightseeing: 'Sevärdheter',
         menuPonteDeLima: 'Ponte de Lima',
         menuPorto: 'Porto',
+        menuPortoHistory: 'Porto: Historia & Mat',
+        menuPortoGardens: 'Porto: Trädgårdar',
+        menuPortoViews: 'Porto: Utsikt & Promenader',
+        menuPortoCulture: 'Porto: Konst & Kultur',
         weddingDate: '19 SEPTEMBER 2026',
         landingTitle: 'Vi ska gifta oss',
         sections: [
@@ -329,18 +395,7 @@ const translations = {
                     }
                 ]
             },
-            {
-                id: 'speeches',
-                title: 'Tal',
-                blocks: [
-                    {
-                        text: [
-                            'Om du vill hålla ett tal, prata gärna med toastmasterna innan bröllopet. För korta skålar behöver du inte meddela i förväg.',
-                            'Definition av tal: att prata i mer än en minut.'
-                        ]
-                    }
-                ]
-            },
+
             {
                 id: 'ponte-de-lima',
                 title: 'Ponte de Lima',
@@ -349,8 +404,8 @@ const translations = {
                 ]
             },
             {
-                id: 'porto',
-                title: 'Porto',
+                id: 'porto-history',
+                title: 'Porto: Historia & Mat',
                 blocks: [
                     {
                         subtitle: 'Historiska sevärdheter',
@@ -364,11 +419,49 @@ const translations = {
                         text: [
                             '<strong>Gelateria Portuense</strong><br>Den allra bästa gelaton i Porto!'
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                id: 'porto-gardens',
+                title: 'Porto: Trädgårdar',
+                blocks: [
+                    {
+                        subtitle: 'Trädgårdar',
+                        text: [
+                            '<strong>Kristallpalatsets trädgårdar</strong> (Palácio de Cristal)',
+                            '<strong>Casa S. Roque och trädgårdar</strong>',
+                            '<strong>Quinta da Prelada-trädgården</strong> (gratis)',
+                            '<strong>Liége-trädgården</strong> (i Foz)'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'porto-views',
+                title: 'Porto: Utsikt och Promenader',
+                blocks: [
+                    {
+                        subtitle: 'Utsikt och Promenader',
+                        text: [
+                            '<strong>Marquês-kyrkans torn</strong> (för utsikten)',
+                            '<strong>Lada-hissen</strong> (bredvid Luís I-bron)',
+                            '<strong>Monte dos Judeus-trapporna</strong> (Ribeira)',
+                            '<strong>Calçada da Arrábida</strong> (för att gå upp och se utsikten över Douro)',
+                            '<strong>Foz</strong><br>Promenera eller cykla i Foz och njut av solnedgången på en uteservering. Du kan hyra cyklar hos <a href="https://www.tricla.pt/" target="_blank">Biclas&Triclas</a>.'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'porto-culture',
+                title: 'Porto: Konst & Kultur',
+                blocks: [
                     {
                         subtitle: 'Konst och kultur',
                         text: [
                             '<strong>Serralves – museum för samtidskonst</strong><br>Ibland utmärkta utställningar, kolla innan då det är ganska dyrt. Xxxx dag är det gratis inträde. Trädgården är härlig!',
+                            '<strong>Palacete Silva Monteiro</strong> (Rua da Restauração)',
                             '<strong>Xxxx – dockteatermuseum</strong><br>Ett museum med xxx teaterproduktioner. Litet men väldigt charmigt och lågt inträde.'
                         ]
                     }
