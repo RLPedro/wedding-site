@@ -46,11 +46,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Existem muitas opções de alojamento no centro de Ponte de Lima, incluindo hotéis, hostels e Airbnbs. Para os convidados que viajam de fora de Portugal, recomendamos vivamente ficares mais um ou dois dias para explorares Ponte de Lima e a região do Minho, conhecida pelas suas paisagens verdes, aldeias históricas, vinhas e gastronomia tradicional.'
-                        ]
-                    },
-                    {
-                        text: [
+                            'Existem muitas opções de alojamento no centro de Ponte de Lima, incluindo hotéis, hostels e Airbnbs. Para os convidados que viajam de fora de Portugal, recomendamos vivamente ficares mais um ou dois dias para explorares Ponte de Lima e a região do Minho, conhecida pelas suas paisagens verdes, aldeias históricas, vinhas e gastronomia tradicional.',
                             'Se estiveres interessado em reservar um dos alojamentos abaixo, por favor contacta-nos o mais brevemente possível.',
                             '<strong><a href="http://www.conventovalpereiras.pt" target="_blank">Convento de Val Pereiras</a></strong><br>9 quartos a 140€/quarto/noite, com pequeno-almoço incluído.<br>Há também 5 suítes noutro edifício por 200€/suite/noite.',
                             '<strong><a href="https://www.visitepontedelima.pt/pt/turismo/quinta-da-freiria" target="_blank">Casa da Freiria</a></strong><br>2 quartos a 80€/quarto/noite, sem pequeno-almoço incluído — pode ser encomendado.'
@@ -204,11 +200,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'There are many accommodation options in central Ponte de Lima, including hotels, hostels, and Airbnbs. For guests traveling from outside Portugal, we highly recommend staying an extra day or two to explore Ponte de Lima and the surrounding Minho region, known for its green landscapes, historic villages, vineyards, and traditional cuisine.'
-                        ]
-                    },
-                    {
-                        text: [
+                            'There are many accommodation options in central Ponte de Lima, including hotels, hostels, and Airbnbs. For guests traveling from outside Portugal, we highly recommend staying an extra day or two to explore Ponte de Lima and the surrounding Minho region, known for its green landscapes, historic villages, vineyards, and traditional cuisine.',
                             'If you are interested in booking any of the rooms below, please contact us as soon as possible.',
                             '<strong><a href="http://www.conventovalpereiras.pt" target="_blank">Convento de Val Pereiras</a></strong><br>9 rooms at €140/room/night, breakfast included.<br>There are also 5 suites in a separate building at €200/suite/night.',
                             '<strong><a href="https://www.visitepontedelima.pt/pt/turismo/quinta-da-freiria" target="_blank">Casa da Freiria</a></strong><br>2 rooms at €80/room/night, breakfast not included — but can be arranged.'
@@ -362,11 +354,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Det finns många boendemöjligheter i centrala Ponte de Lima, inklusive hotell, vandrarhem och Airbnbs. För gäster som reser från utanför Portugal kan vi verkligen rekommendera att stanna en eller två extra dagar för att utforska Ponte de Lima och den omgivande Minho-regionen, känd för sina gröna landskap, historiska byar, vingårdar och traditionella kök.'
-                        ]
-                    },
-                    {
-                        text: [
+                            'Det finns många boendemöjligheter i centrala Ponte de Lima, inklusive hotell, vandrarhem och Airbnbs. För gäster som reser från utanför Portugal kan vi verkligen rekommendera att stanna en eller två extra dagar för att utforska Ponte de Lima och den omgivande Minho-regionen, känd för sina gröna landskap, historiska byar, vingårdar och traditionella kök.',
                             'Är du intresserad av att boka något av rummen nedan, vänligen kontakta oss så snart som möjligt.',
                             '<strong><a href="http://www.conventovalpereiras.pt" target="_blank">Convento de Val Pereiras</a></strong><br>9 rum à 140€/rum/natt, frukost ingår.<br>Det finns även 5 sviter i en separat byggnad à 200€/svit/natt.',
                             '<strong><a href="https://www.visitepontedelima.pt/pt/turismo/quinta-da-freiria" target="_blank">Casa da Freiria</a></strong><br>2 rum à 80€/rum/natt, frukost ingår ej — men kan beställas separat.'
