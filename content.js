@@ -46,8 +46,14 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Existem muitas opções de alojamento no centro de Ponte de Lima, incluindo hotéis, hostels e Airbnbs. Para os convidados que viajam de fora de Portugal, recomendamos vivamente ficares mais um ou dois dias para explorares Ponte de Lima e a região do Minho, conhecida pelas suas paisagens verdes, aldeias históricas, vinhas e gastronomia tradicional.',
-                            'A quinta também oferece quartos a curta distância a pé da propriedade por [preço] por noite. Se estiveres interessado em reservar um destes quartos, por favor contacta-nos o mais brevemente possível.'
+                            'Existem muitas opções de alojamento no centro de Ponte de Lima, incluindo hotéis, hostels e Airbnbs. Para os convidados que viajam de fora de Portugal, recomendamos vivamente ficares mais um ou dois dias para explorares Ponte de Lima e a região do Minho, conhecida pelas suas paisagens verdes, aldeias históricas, vinhas e gastronomia tradicional.'
+                        ]
+                    },
+                    {
+                        text: [
+                            'Se estiveres interessado em reservar um dos alojamentos abaixo, por favor contacta-nos o mais brevemente possível.',
+                            '<strong>Convento de Val Pereiras</strong><br>9 quartos a 140€/quarto/noite, com pequeno-almoço incluído.<br>Há também 5 suítes noutro edifício por 200€/suite/noite.',
+                            '<strong>Casa da Freiria</strong><br>2 quartos a 80€/quarto/noite, sem pequeno-almoço incluído — pode ser encomendado.'
                         ]
                     }
                 ]
@@ -95,14 +101,12 @@ const translations = {
                 title: 'Porto: História e Comida',
                 blocks: [
                     {
-                        subtitle: 'Turismo histórico',
                         text: [
                             '<strong>Sé (Catedral)</strong><br>Se só vais visitar uma igreja, recomendamos esta. Tem também um miradouro muito bonito!',
                             '<strong>Passeios gratuitos pela cidade</strong><br>Uma forma muito agradável de teres uma visão geral dos principais pontos de interesse e da história do Porto. Bónus se tiveres a Inês Garrido como guia!'
                         ]
                     },
                     {
-                        subtitle: 'Comida',
                         text: [
                             '<strong>Gelateria Portuense</strong><br>O melhor gelado do Porto!'
                         ]
@@ -114,7 +118,6 @@ const translations = {
                 title: 'Porto: Jardins',
                 blocks: [
                     {
-                        subtitle: 'Jardins',
                         text: [
                             '<strong>Jardins do Palácio de Cristal</strong>',
                             '<strong>Casa S. Roque e jardins</strong>',
@@ -129,7 +132,6 @@ const translations = {
                 title: 'Porto: Vistas e Passeios',
                 blocks: [
                     {
-                        subtitle: 'Vistas e Passeios',
                         text: [
                             '<strong>Torre da igreja do Marquês</strong> (para ver as vistas)',
                             '<strong>Elevador da Lada</strong> (junto à ponte D. Luís)',
@@ -145,11 +147,10 @@ const translations = {
                 title: 'Porto: Arte e Cultura',
                 blocks: [
                     {
-                        subtitle: 'Arte e cultura',
                         text: [
                             '<strong>Serralves – museu de arte contemporânea</strong><br>Por vezes tem exposições excelentes, verifica antes pois é bastante caro. Xxxx dia a entrada é gratuita. O jardim é adorável!',
                             '<strong>Palacete Silva Monteiro</strong> (rua da Restauração)',
-                            '<strong>Xxxx – museu de teatro de marionetas</strong><br>Um museu de produções de teatro xxx. Pequeno mas muito giro e com bilhete barato.'
+                            '<strong>Museu das Marionetas do Porto</strong><br>Um museu de produções de teatro de marionetas. Pequeno mas muito giro e com bilhete barato.'
                         ]
                     }
                 ]
@@ -203,8 +204,14 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'There are many accommodation options in central Ponte de Lima, including hotels, hostels, and Airbnbs. For guests traveling from outside Portugal, we highly recommend staying an extra day or two to explore Ponte de Lima and the surrounding Minho region, known for its green landscapes, historic villages, vineyards, and traditional cuisine.',
-                            'The quinta also offers rooms within walking distance of the estate for [price] per night. If you are interested in booking one of these rooms, please contact us as soon as possible.'
+                            'There are many accommodation options in central Ponte de Lima, including hotels, hostels, and Airbnbs. For guests traveling from outside Portugal, we highly recommend staying an extra day or two to explore Ponte de Lima and the surrounding Minho region, known for its green landscapes, historic villages, vineyards, and traditional cuisine.'
+                        ]
+                    },
+                    {
+                        text: [
+                            'If you are interested in booking any of the rooms below, please contact us as soon as possible.',
+                            '<strong>Convento de Val Pereiras</strong><br>9 rooms at €140/room/night, breakfast included.<br>There are also 5 suites in a separate building at €200/suite/night.',
+                            '<strong>Casa da Freiria</strong><br>2 rooms at €80/room/night, breakfast not included — but can be arranged.'
                         ]
                     }
                 ]
@@ -252,14 +259,12 @@ const translations = {
                 title: 'Porto: History & Food',
                 blocks: [
                     {
-                        subtitle: 'Historic sightseeing',
                         text: [
                             '<strong>The cathedral</strong><br>If you\'re only gonna pick one church to visit, we recommend this one. Very nice viewpoint as well!',
                             '<strong>City free tours</strong><br>A very pleasant way to get an overview of important landmarks as well as the history of Porto. Bonus if you get Inês Garrido as your guide!'
                         ]
                     },
                     {
-                        subtitle: 'Food',
                         text: [
                             '<strong>Gelateria Portuense</strong><br>The very best gelato in Porto!'
                         ]
@@ -271,7 +276,6 @@ const translations = {
                 title: 'Porto: Gardens',
                 blocks: [
                     {
-                        subtitle: 'Gardens',
                         text: [
                             '<strong>Crystal Palace gardens</strong>',
                             '<strong>Casa S. Roque and gardens</strong>',
@@ -286,7 +290,6 @@ const translations = {
                 title: 'Porto: Views and Walks',
                 blocks: [
                     {
-                        subtitle: 'Views and Walks',
                         text: [
                             '<strong>Marquês Church tower</strong> (for the views)',
                             '<strong>Lada elevator</strong> (next to Luís I Bridge)',
@@ -302,11 +305,10 @@ const translations = {
                 title: 'Porto: Art & Culture',
                 blocks: [
                     {
-                        subtitle: 'Art and culture',
                         text: [
                             '<strong>Serralves – museum for contemporary art</strong><br>Great exhibitions sometimes, check beforehand as it\'s very pricey. Xxxx day it\'s free admission. The garden is lovely!',
                             '<strong>Palacete Silva Monteiro</strong> (Rua da Restauração)',
-                            '<strong>Xxxx – puppet theatre museum</strong><br>A museum of xxx theatre productions. Small but very cute and low admission fee.'
+                            '<strong>Museu das Marionetas do Porto</strong> (Porto Puppet Museum)<br>A museum of puppet theatre productions. Small but very cute and low admission fee.'
                         ]
                     }
                 ]
@@ -362,6 +364,13 @@ const translations = {
                         text: [
                             'Det finns många boendemöjligheter i centrala Ponte de Lima, inklusive hotell, vandrarhem och Airbnbs. För gäster som reser från utanför Portugal kan vi verkligen rekommendera att stanna en eller två extra dagar för att utforska Ponte de Lima och den omgivande Minho-regionen, känd för sina gröna landskap, historiska byar, vingårdar och traditionella kök.'
                         ]
+                    },
+                    {
+                        text: [
+                            'Är du intresserad av att boka något av rummen nedan, vänligen kontakta oss så snart som möjligt.',
+                            '<strong>Convento de Val Pereiras</strong><br>9 rum à 140€/rum/natt, frukost ingår.<br>Det finns även 5 sviter i en separat byggnad à 200€/svit/natt.',
+                            '<strong>Casa da Freiria</strong><br>2 rum à 80€/rum/natt, frukost ingår ej — men kan beställas separat.'
+                        ]
                     }
                 ]
             },
@@ -408,14 +417,12 @@ const translations = {
                 title: 'Porto: Historia & Mat',
                 blocks: [
                     {
-                        subtitle: 'Historiska sevärdheter',
                         text: [
                             '<strong>Katedralen</strong><br>Om du bara ska besöka en kyrka rekommenderar vi denna. Mycket fin utsiktsplats också!',
                             '<strong>Gratis stadsvandringar</strong><br>Ett mycket trevligt sätt att få en överblick över viktiga landmärken och Portos historia. Bonus om ni får Inês Garrido som guide!'
                         ]
                     },
                     {
-                        subtitle: 'Mat',
                         text: [
                             '<strong>Gelateria Portuense</strong><br>Den allra bästa gelaton i Porto!'
                         ]
@@ -427,7 +434,6 @@ const translations = {
                 title: 'Porto: Trädgårdar',
                 blocks: [
                     {
-                        subtitle: 'Trädgårdar',
                         text: [
                             '<strong>Kristallpalatsets trädgårdar</strong> (Palácio de Cristal)',
                             '<strong>Casa S. Roque och trädgårdar</strong>',
@@ -442,7 +448,6 @@ const translations = {
                 title: 'Porto: Utsikt och Promenader',
                 blocks: [
                     {
-                        subtitle: 'Utsikt och Promenader',
                         text: [
                             '<strong>Marquês-kyrkans torn</strong> (för utsikten)',
                             '<strong>Lada-hissen</strong> (bredvid Luís I-bron)',
@@ -458,11 +463,10 @@ const translations = {
                 title: 'Porto: Konst & Kultur',
                 blocks: [
                     {
-                        subtitle: 'Konst och kultur',
                         text: [
                             '<strong>Serralves – museum för samtidskonst</strong><br>Ibland utmärkta utställningar, kolla innan då det är ganska dyrt. Xxxx dag är det gratis inträde. Trädgården är härlig!',
                             '<strong>Palacete Silva Monteiro</strong> (Rua da Restauração)',
-                            '<strong>Xxxx – dockteatermuseum</strong><br>Ett museum med xxx teaterproduktioner. Litet men väldigt charmigt och lågt inträde.'
+                            '<strong>Museu das Marionetas do Porto</strong> (Portos dockteatermuseum)<br>Ett museum med dockteaterproduktioner. Litet men väldigt charmigt och lågt inträde.'
                         ]
                     }
                 ]
