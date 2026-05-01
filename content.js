@@ -52,8 +52,8 @@ const translations = {
                     {
                         text: [
                             'Se estiveres interessado em reservar um dos alojamentos abaixo, por favor contacta-nos o mais brevemente possível.',
-                            '<strong>Convento de Val Pereiras</strong><br>9 quartos a 140€/quarto/noite, com pequeno-almoço incluído.<br>Há também 5 suítes noutro edifício por 200€/suite/noite.',
-                            '<strong>Casa da Freiria</strong><br>2 quartos a 80€/quarto/noite, sem pequeno-almoço incluído — pode ser encomendado.'
+                            '<strong><a href="http://www.conventovalpereiras.pt" target="_blank">Convento de Val Pereiras</a></strong><br>9 quartos a 140€/quarto/noite, com pequeno-almoço incluído.<br>Há também 5 suítes noutro edifício por 200€/suite/noite.',
+                            '<strong><a href="https://www.visitepontedelima.pt/pt/turismo/quinta-da-freiria" target="_blank">Casa da Freiria</a></strong><br>2 quartos a 80€/quarto/noite, sem pequeno-almoço incluído — pode ser encomendado.'
                         ]
                     }
                 ]
@@ -210,8 +210,8 @@ const translations = {
                     {
                         text: [
                             'If you are interested in booking any of the rooms below, please contact us as soon as possible.',
-                            '<strong>Convento de Val Pereiras</strong><br>9 rooms at €140/room/night, breakfast included.<br>There are also 5 suites in a separate building at €200/suite/night.',
-                            '<strong>Casa da Freiria</strong><br>2 rooms at €80/room/night, breakfast not included — but can be arranged.'
+                            '<strong><a href="http://www.conventovalpereiras.pt" target="_blank">Convento de Val Pereiras</a></strong><br>9 rooms at €140/room/night, breakfast included.<br>There are also 5 suites in a separate building at €200/suite/night.',
+                            '<strong><a href="https://www.visitepontedelima.pt/pt/turismo/quinta-da-freiria" target="_blank">Casa da Freiria</a></strong><br>2 rooms at €80/room/night, breakfast not included — but can be arranged.'
                         ]
                     }
                 ]
@@ -368,8 +368,8 @@ const translations = {
                     {
                         text: [
                             'Är du intresserad av att boka något av rummen nedan, vänligen kontakta oss så snart som möjligt.',
-                            '<strong>Convento de Val Pereiras</strong><br>9 rum à 140€/rum/natt, frukost ingår.<br>Det finns även 5 sviter i en separat byggnad à 200€/svit/natt.',
-                            '<strong>Casa da Freiria</strong><br>2 rum à 80€/rum/natt, frukost ingår ej — men kan beställas separat.'
+                            '<strong><a href="http://www.conventovalpereiras.pt" target="_blank">Convento de Val Pereiras</a></strong><br>9 rum à 140€/rum/natt, frukost ingår.<br>Det finns även 5 sviter i en separat byggnad à 200€/svit/natt.',
+                            '<strong><a href="https://www.visitepontedelima.pt/pt/turismo/quinta-da-freiria" target="_blank">Casa da Freiria</a></strong><br>2 rum à 80€/rum/natt, frukost ingår ej — men kan beställas separat.'
                         ]
                     }
                 ]

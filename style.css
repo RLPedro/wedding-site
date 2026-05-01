@@ -300,6 +300,17 @@ p {
     text-align: justify;
 }
 
+.section-body a,
+.section-body a:visited {
+    color: var(--color-secondary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.section-body a:hover {
+    opacity: 0.75;
+}
+
 /* =========================================
    6. UTILITIES / HIDDEN ELEMENTS
 ========================================= */
