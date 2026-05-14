@@ -12,7 +12,9 @@ const translations = {
         menuDressCode: 'Roupa',
         menuGifts: 'Presentes',
         menuSightseeing: 'O que visitar',
-        menuPonteDeLima: 'Ponte de Lima',
+        menuPdLCulture: 'Pte. Lima: Cultura',
+        menuPdLNature: 'Pte. Lima: Natureza',
+        menuPdLFood: 'Pte. Lima: Gastronomia',
         menuPorto: 'Porto',
         menuPortoHistory: 'Porto: História e Comida',
         menuPortoGardens: 'Porto: Jardins',
@@ -84,12 +86,67 @@ const translations = {
                     }
                 ]
             },
-
             {
-                id: 'ponte-de-lima',
-                title: 'Ponte de Lima',
+                id: 'ponte-de-lima-culture',
+                title: 'Pte. Lima: Cultura',
                 blocks: [
-                    { text: ['Em breve.'] }
+                    {
+                        subtitle: 'Centro de Interpretação e Promoção do Vinho Verde',
+                        text: [
+                            'Instalado na Casa Torreada dos Barbosa Aranha, o espaço explica a história do Vinho Verde através de exposições e provas. Fica no coração da vila e é ideal para amantes de vinho.',
+                            '<a href="https://www.visitepontedelima.pt/pt/turismo/centro-de-interpretacao-e-promocao-do-vinho-verde" target="_blank">Visite Ponte de Lima – CIPVV</a> · <a href="http://www.cipvv.pt" target="_blank">Website oficial do CIPVV</a>'
+                        ]
+                    },
+                    {
+                        subtitle: 'Ponte medieval e zona ribeirinha',
+                        text: [
+                            'Símbolo da vila e melhor ponto de partida para explorar o centro. A zona ribeirinha é excelente para um passeio ao final da tarde.'
+                        ]
+                    },
+                    {
+                        subtitle: 'Avenida dos Plátanos',
+                        text: [
+                            'Uma das zonas mais bonitas da vila. Liga o centro ao rio e é perfeita para caminhadas tranquilas.',
+                            '<a href="https://www.visitepontedelima.pt/pt/turismo/avenida-dos-platanos" target="_blank">Avenida dos Plátanos – Visite Ponte de Lima</a>'
+                        ]
+                    },
+                    {
+                        subtitle: 'Centro histórico',
+                        text: [
+                            'Perca-se pelas ruas e praças antigas: Chafariz do Largo de Camões, Torre de São Paulo e Rua do Souto.'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'ponte-de-lima-nature',
+                title: 'Pte. Lima: Natureza',
+                blocks: [
+                    {
+                        subtitle: 'Passeio de barco no Rio Lima',
+                        text: [
+                            'Ver a vila a partir da água num barco tradicional é uma experiência linda e tranquila. Recomendamos reservar com antecedência.',
+                            '<a href="http://www.limavalleytours.pt" target="_blank">Lima Valley Tours</a> · <a href="https://www.clubenautico.pt" target="_blank">Clube Náutico de Ponte de Lima</a>'
+                        ]
+                    },
+                    {
+                        subtitle: 'Ecovia do Rio Lima',
+                        text: [
+                            'Para quem gosta de natureza, a ecovia oferece percursos fáceis para caminhar ou andar de bicicleta junto ao Rio Lima.',
+                            '<a href="https://www.visitepontedelima.pt/pt/turismo/ecovia-dos-acudes" target="_blank">Ecovia do Rio Lima – Percurso dos Açudes</a> · <a href="https://www.visitepontedelima.pt/pt/turismo/ecovia-das-laranjas" target="_blank">Ecovia das Laranjas – Cais da Garrida</a>'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'ponte-de-lima-food',
+                title: 'Pte. Lima: Gastronomia',
+                blocks: [
+                    {
+                        text: [
+                            'A não perder: Arroz de sarrabulho à moda de Ponte de Lima, Rojões, Lampreia (na época) e Vinhos Verdes locais.'
+                        ]
+                    }
                 ]
             },
             {
@@ -166,7 +223,9 @@ const translations = {
         menuDressCode: 'Dress code',
         menuGifts: 'Gifts',
         menuSightseeing: 'Sightseeing',
-        menuPonteDeLima: 'Ponte de Lima',
+        menuPdLCulture: 'Pte. Lima: Culture',
+        menuPdLNature: 'Pte. Lima: Nature',
+        menuPdLFood: 'Pte. Lima: Food',
         menuPorto: 'Porto',
         menuPortoHistory: 'Porto: History & Food',
         menuPortoGardens: 'Porto: Gardens',
@@ -238,12 +297,67 @@ const translations = {
                     }
                 ]
             },
-
             {
-                id: 'ponte-de-lima',
-                title: 'Ponte de Lima',
+                id: 'ponte-de-lima-culture',
+                title: 'Pte. Lima: Culture',
                 blocks: [
-                    { text: ['Coming soon.'] }
+                    {
+                        subtitle: 'Vinho Verde Interpretation and Promotion Centre (CIPVV)',
+                        text: [
+                            'Housed in a historic building, this space explores Vinho Verde history through exhibitions and tastings. Right in town, it\'s perfect for wine lovers.',
+                            '<a href="https://www.visitepontedelima.pt/pt/turismo/centro-de-interpretacao-e-promocao-do-vinho-verde" target="_blank">Visite Ponte de Lima – CIPVV</a> · <a href="http://www.cipvv.pt" target="_blank">CIPVV official website</a>'
+                        ]
+                    },
+                    {
+                        subtitle: 'Medieval bridge and riverside area',
+                        text: [
+                            'The town\'s defining landmark and best starting point to explore the centre. The riverside is great for an evening stroll.'
+                        ]
+                    },
+                    {
+                        subtitle: 'Avenida dos Plátanos',
+                        text: [
+                            'A beautiful, photogenic avenue connecting the centre to the riverbank. Perfect for a leisurely walk.',
+                            '<a href="https://www.visitepontedelima.pt/pt/turismo/avenida-dos-platanos" target="_blank">Avenida dos Plátanos – Visite Ponte de Lima</a>'
+                        ]
+                    },
+                    {
+                        subtitle: 'Historic centre',
+                        text: [
+                            'Get lost in the ancient streets and historic squares: Chafariz do Largo de Camões, Torre de São Paulo, and Rua do Souto.'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'ponte-de-lima-nature',
+                title: 'Pte. Lima: Nature',
+                blocks: [
+                    {
+                        subtitle: 'Boat trip on the River Lima',
+                        text: [
+                            'A peaceful boat trip on traditional vessels is a beautiful way to see the town from the water. Booking ahead is advised.',
+                            '<a href="http://www.limavalleytours.pt" target="_blank">Lima Valley Tours</a> · <a href="https://www.clubenautico.pt" target="_blank">Clube Náutico de Ponte de Lima</a>'
+                        ]
+                    },
+                    {
+                        subtitle: 'Ecovia along the River Lima',
+                        text: [
+                            'The riverside Ecovia offers very pleasant, easy routes for walking or cycling in nature.',
+                            '<a href="https://www.visitepontedelima.pt/pt/turismo/ecovia-dos-acudes" target="_blank">Ecovia do Rio Lima – Percurso dos Açudes</a> · <a href="https://www.visitepontedelima.pt/pt/turismo/ecovia-das-laranjas" target="_blank">Ecovia das Laranjas – Cais da Garrida</a>'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'ponte-de-lima-food',
+                title: 'Pte. Lima: Food',
+                blocks: [
+                    {
+                        text: [
+                            'Must-try local specialties: Arroz de sarrabulho, Rojões, Lampreia (in season), and local Vinho Verde.'
+                        ]
+                    }
                 ]
             },
             {
@@ -320,7 +434,9 @@ const translations = {
         menuDressCode: 'Klädkod',
         menuGifts: 'Gåvor',
         menuSightseeing: 'Sevärdheter',
-        menuPonteDeLima: 'Ponte de Lima',
+        menuPdLCulture: 'Pte. Lima: Kultur',
+        menuPdLNature: 'Pte. Lima: Natur',
+        menuPdLFood: 'Pte. Lima: Mat',
         menuPorto: 'Porto',
         menuPortoHistory: 'Porto: Historia & Mat',
         menuPortoGardens: 'Porto: Trädgårdar',
@@ -394,10 +510,66 @@ const translations = {
             },
 
             {
-                id: 'ponte-de-lima',
-                title: 'Ponte de Lima',
+                id: 'ponte-de-lima-culture',
+                title: 'Pte. Lima: Kultur',
                 blocks: [
-                    { text: ['Kommer snart.'] }
+                    {
+                        subtitle: 'Tolkningscentret för Vinho Verde (CIPVV)',
+                        text: [
+                            'Inrymt i en historisk byggnad, erbjuder denna plats utställningar och provningar om Vinho Verde. Ligger mitt i byn och är perfekt för vinälskare.',
+                            '<a href="https://www.visitepontedelima.pt/pt/turismo/centro-de-interpretacao-e-promocao-do-vinho-verde" target="_blank">Visite Ponte de Lima – CIPVV</a> · <a href="http://www.cipvv.pt" target="_blank">CIPVVs officiella webbplats</a>'
+                        ]
+                    },
+                    {
+                        subtitle: 'Medeltida bron och strandpromenaden',
+                        text: [
+                            'Byns stora symbol och den bästa startpunkten för att utforska centrum. Strandpromenaden är utmärkt för en kvällspromenad.'
+                        ]
+                    },
+                    {
+                        subtitle: 'Avenida dos Plátanos',
+                        text: [
+                            'En vacker och fotogenisk allé som förbinder centrum med floden. Perfekt för en lugn promenad.',
+                            '<a href="https://www.visitepontedelima.pt/pt/turismo/avenida-dos-platanos" target="_blank">Avenida dos Plátanos – Visite Ponte de Lima</a>'
+                        ]
+                    },
+                    {
+                        subtitle: 'Det historiska centret',
+                        text: [
+                            'Gå vilse bland gamla gator och historiska torg: Chafariz do Largo de Camões, Torre de São Paulo och Rua do Souto.'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'ponte-de-lima-nature',
+                title: 'Pte. Lima: Natur',
+                blocks: [
+                    {
+                        subtitle: 'Båttur på floden Lima',
+                        text: [
+                            'En fridfull båttur med traditionella båtar är ett vackert sätt att se byn från vattnet. Förbokning rekommenderas.',
+                            '<a href="http://www.limavalleytours.pt" target="_blank">Lima Valley Tours</a> · <a href="https://www.clubenautico.pt" target="_blank">Clube Náutico de Ponte de Lima</a>'
+                        ]
+                    },
+                    {
+                        subtitle: 'Ecovialeden längs floden Lima',
+                        text: [
+                            'Ecovialeden längs floden erbjuder mycket trevliga, lätta slingor för promenader eller cykling i naturen.',
+                            '<a href="https://www.visitepontedelima.pt/pt/turismo/ecovia-dos-acudes" target="_blank">Ecovia do Rio Lima – Percurso dos Açudes</a> · <a href="https://www.visitepontedelima.pt/pt/turismo/ecovia-das-laranjas" target="_blank">Ecovia das Laranjas – Cais da Garrida</a>'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'ponte-de-lima-food',
+                title: 'Pte. Lima: Mat',
+                blocks: [
+                    {
+                        text: [
+                            'Lokala specialiteter att testa: Arroz de sarrabulho, Rojões, Lampreia (i säsong) och lokal Vinho Verde.'
+                        ]
+                    }
                 ]
             },
             {
