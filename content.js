@@ -48,7 +48,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Existem muitas opções de alojamento no centro de Ponte de Lima, incluindo hotéis, hostels e Airbnbs. Para os convidados que viajam de fora de Portugal, recomendamos vivamente ficares mais um ou dois dias para explorares Ponte de Lima e a região do Minho, conhecida pelas suas paisagens verdes, aldeias históricas, vinhas e gastronomia tradicional.',
+                            'Existem várias opções de alojamento no centro de Ponte de Lima, incluindo hotéis, hostels e Airbnbs. Para os convidados que viajam de fora de Portugal, recomendamos vivamente ficares mais um ou dois dias para explorares Ponte de Lima e a região do Minho, conhecida pelas suas paisagens verdes, aldeias históricas, vinhas e gastronomia tradicional.',
                             'Se estiveres interessado em reservar um dos alojamentos abaixo, por favor contacta-nos o mais brevemente possível.',
                             '<strong><a href="http://www.conventovalpereiras.pt" target="_blank">Convento de Val Pereiras</a></strong><br>9 quartos a 140€/quarto/noite, com pequeno-almoço incluído.<br>Há também 5 suítes noutro edifício por 200€/suite/noite.',
                             '<strong><a href="https://www.visitepontedelima.pt/pt/turismo/quinta-da-freiria" target="_blank">Casa da Freiria</a></strong><br>2 quartos a 80€/quarto/noite, sem pequeno-almoço incluído — pode ser encomendado.'
@@ -60,7 +60,7 @@ const translations = {
                 id: 'ceremony',
                 title: 'Cerimónia',
                 blocks: [
-                    { text: ['Se o tempo permitir, a cerimónia terá lugar nos jardins. Será realizada em inglês e os programas impressos incluirão traduções em sueco e português.'] }
+                    { text: ['Se o tempo permitir, a cerimónia terá lugar no jardim. Será realizada em inglês e os programas impressos terão traduções em português e sueco.'] }
                 ]
             },
             {
@@ -69,8 +69,8 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Ninguém passa fome num casamento português. Um conselho: nunca assumas que o último prato já foi servido — guarda sempre um bocadinho de espaço ao longo da noite!',
-                            'Se tiveres restrições alimentares (como alergias alimentares ou dieta vegana/vegetariana), por favor informa-nos o mais brevemente possível.'
+                            'Ninguém passa fome num casamento português. Um conselho: nunca assumas que o último prato já foi servido, guarda sempre um bocadinho de espaço ao longo da noite!',
+                            'Se tiveres restrições alimentares (como alergias, dieta vegana/vegetariana, etc), por favor informa-nos o mais brevemente possível.'
                         ]
                     }
                 ]
@@ -81,7 +81,30 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Queremos garantir que todos os convidados tenham um dia maravilhoso, incluindo as crianças. Haverá jogos e atividades nos jardins para os mais pequenos, com ou sem os pais.'
+                            'Queremos garantir que todos os convidados têm um dia maravilhoso, incluindo os mais pequenos. Haverá jogos e atividades nos jardins para as crianças!'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'dress-code',
+                title: 'Roupa',
+                blocks: [
+                    {
+                        text: [
+                            'Não há código de vestimenta! Veste algo bonito e confortável para ti.'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'gifts',
+                title: 'Presentes',
+                blocks: [
+                    {
+                        text: [
+                            'A tua presença é o presente mais valioso que poderíamos desejar!<br>Dito isto, caso queiras contribuir para a nossa (bastante merecida) lua de mel, criámos um fundo para onde podes enviar o que quiseres de forma anónima (só tens de inventar um nome ou deixá-lo em branco!)<br>Clica <a href="https://app.collectionpot.com/pot/3499020" target="_blank">AQUI</a> ou lê o código QR abaixo.',
+                            '<div style="text-align: center; margin-top: 20px;"><a href="https://app.collectionpot.com/pot/3499020" target="_blank"><img src="assets/QR_blue.png" alt="QR Code" style="max-width: 150px;"></a></div>'
                         ]
                     }
                 ]
@@ -91,29 +114,16 @@ const translations = {
                 title: 'Pte. Lima: Cultura',
                 blocks: [
                     {
+                        subtitle: 'Centro Histórico, Ponte Medieval & Avenida dos Plátanos',
+                        text: [
+                            'A melhor forma de explorar o coração da vila. Perca-se pelas ruas e praças antigas (como o Largo de Camões e a Rua do Souto), atravesse a icónica ponte medieval e caminhe pela belíssima Avenida dos Plátanos ao longo do rio.'
+                        ]
+                    },
+                    {
                         subtitle: 'Centro de Interpretação e Promoção do Vinho Verde',
                         text: [
                             'Instalado na Casa Torreada dos Barbosa Aranha, o espaço explica a história do Vinho Verde através de exposições e provas. Fica no coração da vila e é ideal para amantes de vinho.',
                             '<a href="https://www.visitepontedelima.pt/pt/turismo/centro-de-interpretacao-e-promocao-do-vinho-verde" target="_blank">Visite Ponte de Lima – CIPVV</a> · <a href="http://www.cipvv.pt" target="_blank">Website oficial do CIPVV</a>'
-                        ]
-                    },
-                    {
-                        subtitle: 'Ponte medieval e zona ribeirinha',
-                        text: [
-                            'Símbolo da vila e melhor ponto de partida para explorar o centro. A zona ribeirinha é excelente para um passeio ao final da tarde.'
-                        ]
-                    },
-                    {
-                        subtitle: 'Avenida dos Plátanos',
-                        text: [
-                            'Uma das zonas mais bonitas da vila. Liga o centro ao rio e é perfeita para caminhadas tranquilas.',
-                            '<a href="https://www.visitepontedelima.pt/pt/turismo/avenida-dos-platanos" target="_blank">Avenida dos Plátanos – Visite Ponte de Lima</a>'
-                        ]
-                    },
-                    {
-                        subtitle: 'Centro histórico',
-                        text: [
-                            'Perca-se pelas ruas e praças antigas: Chafariz do Largo de Camões, Torre de São Paulo e Rua do Souto.'
                         ]
                     }
                 ]
@@ -298,33 +308,43 @@ const translations = {
                 ]
             },
             {
+                id: 'dress-code',
+                title: 'Dress code',
+                blocks: [
+                    {
+                        text: [
+                            'No formal dress code. Just wear something that looks good and feels comfortable to you.'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'gifts',
+                title: 'Gifts',
+                blocks: [
+                    {
+                        text: [
+                            'Your presence is the most valuable gift we could wish for!<br>That being said, if you would like to contribute to our (well-deserved) honeymoon, we\'ve set up a fund where you can send whatever you want anonymously (you just have to make up a name or leave it blank!)<br>Click <a href="https://app.collectionpot.com/pot/3499020" target="_blank">HERE</a> or scan the QR code below.',
+                            '<div style="text-align: center; margin-top: 20px;"><a href="https://app.collectionpot.com/pot/3499020" target="_blank"><img src="assets/QR_blue.png" alt="QR Code" style="max-width: 150px;"></a></div>'
+                        ]
+                    }
+                ]
+            },
+            {
                 id: 'ponte-de-lima-culture',
                 title: 'Pte. Lima: Culture',
                 blocks: [
+                    {
+                        subtitle: 'Historic Centre, Medieval Bridge & Avenida dos Plátanos',
+                        text: [
+                            'The best way to explore the heart of the town. Get lost in the ancient streets and squares (like Largo de Camões and Rua do Souto), cross the iconic medieval bridge, and take a leisurely walk along the beautiful Avenida dos Plátanos by the river.'
+                        ]
+                    },
                     {
                         subtitle: 'Vinho Verde Interpretation and Promotion Centre (CIPVV)',
                         text: [
                             'Housed in a historic building, this space explores Vinho Verde history through exhibitions and tastings. Right in town, it\'s perfect for wine lovers.',
                             '<a href="https://www.visitepontedelima.pt/pt/turismo/centro-de-interpretacao-e-promocao-do-vinho-verde" target="_blank">Visite Ponte de Lima – CIPVV</a> · <a href="http://www.cipvv.pt" target="_blank">CIPVV official website</a>'
-                        ]
-                    },
-                    {
-                        subtitle: 'Medieval bridge and riverside area',
-                        text: [
-                            'The town\'s defining landmark and best starting point to explore the centre. The riverside is great for an evening stroll.'
-                        ]
-                    },
-                    {
-                        subtitle: 'Avenida dos Plátanos',
-                        text: [
-                            'A beautiful, photogenic avenue connecting the centre to the riverbank. Perfect for a leisurely walk.',
-                            '<a href="https://www.visitepontedelima.pt/pt/turismo/avenida-dos-platanos" target="_blank">Avenida dos Plátanos – Visite Ponte de Lima</a>'
-                        ]
-                    },
-                    {
-                        subtitle: 'Historic centre',
-                        text: [
-                            'Get lost in the ancient streets and historic squares: Chafariz do Largo de Camões, Torre de São Paulo, and Rua do Souto.'
                         ]
                     }
                 ]
@@ -508,35 +528,44 @@ const translations = {
                     }
                 ]
             },
-
+            {
+                id: 'dress-code',
+                title: 'Klädkod',
+                blocks: [
+                    {
+                        text: [
+                            'Ingen formell klädkod. Bär bara något som ser bra ut och känns bekvämt för dig.'
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'gifts',
+                title: 'Gåvor',
+                blocks: [
+                    {
+                        text: [
+                            'Din närvaro är den bästa presenten!<br>Med det sagt, om du vill bidra till vår (välförtjänta) smekmånad, har vi skapat en fond där du kan skicka vad du vill anonymt (du behöver bara hitta på ett namn eller lämna det tomt!)<br>Klicka <a href="https://app.collectionpot.com/pot/3499020" target="_blank">HÄR</a> eller skanna QR-koden nedan.',
+                            '<div style="text-align: center; margin-top: 20px;"><a href="https://app.collectionpot.com/pot/3499020" target="_blank"><img src="assets/QR_blue.png" alt="QR Code" style="max-width: 150px;"></a></div>'
+                        ]
+                    }
+                ]
+            },
             {
                 id: 'ponte-de-lima-culture',
                 title: 'Pte. Lima: Kultur',
                 blocks: [
                     {
+                        subtitle: 'Historiska Centrum, Medeltida Bron & Avenida dos Plátanos',
+                        text: [
+                            'Det bästa sättet att utforska hjärtat av byn. Gå vilse bland de gamla gatorna och torgen (som Largo de Camões och Rua do Souto), gå över den ikoniska medeltida bron, och ta en lugn promenad längs den vackra Avenida dos Plátanos vid floden.'
+                        ]
+                    },
+                    {
                         subtitle: 'Tolkningscentret för Vinho Verde (CIPVV)',
                         text: [
                             'Inrymt i en historisk byggnad, erbjuder denna plats utställningar och provningar om Vinho Verde. Ligger mitt i byn och är perfekt för vinälskare.',
                             '<a href="https://www.visitepontedelima.pt/pt/turismo/centro-de-interpretacao-e-promocao-do-vinho-verde" target="_blank">Visite Ponte de Lima – CIPVV</a> · <a href="http://www.cipvv.pt" target="_blank">CIPVVs officiella webbplats</a>'
-                        ]
-                    },
-                    {
-                        subtitle: 'Medeltida bron och strandpromenaden',
-                        text: [
-                            'Byns stora symbol och den bästa startpunkten för att utforska centrum. Strandpromenaden är utmärkt för en kvällspromenad.'
-                        ]
-                    },
-                    {
-                        subtitle: 'Avenida dos Plátanos',
-                        text: [
-                            'En vacker och fotogenisk allé som förbinder centrum med floden. Perfekt för en lugn promenad.',
-                            '<a href="https://www.visitepontedelima.pt/pt/turismo/avenida-dos-platanos" target="_blank">Avenida dos Plátanos – Visite Ponte de Lima</a>'
-                        ]
-                    },
-                    {
-                        subtitle: 'Det historiska centret',
-                        text: [
-                            'Gå vilse bland gamla gator och historiska torg: Chafariz do Largo de Camões, Torre de São Paulo och Rua do Souto.'
                         ]
                     }
                 ]
