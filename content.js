@@ -103,7 +103,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'A tua presença é o presente mais valioso que poderíamos desejar!<br>Dito isto, caso queiras contribuir para a nossa (bastante merecida) lua de mel, criámos um fundo para onde podes enviar o que quiseres de forma anónima (só tens de inventar um nome ou deixá-lo em branco!)<br>Clica <a href="https://app.collectionpot.com/pot/3499020" target="_blank">AQUI</a> ou lê o código QR abaixo.',
+                            'A tua presença é o presente mais valioso que poderíamos desejar!<br>Dito isto, caso queiras contribuir para a nossa (bastante merecida) lua de mel, criámos um fundo para onde podes enviar o que quiseres (inclusive anonimamente, só tens de inventar um nome ou deixá-lo em branco!)<br>Clica <a href="https://app.collectionpot.com/pot/3499020" target="_blank">AQUI</a> ou lê o código QR abaixo.',
                             '<div style="text-align: center; margin-top: 20px;"><a href="https://app.collectionpot.com/pot/3499020" target="_blank"><img src="assets/QR_blue.png" alt="QR Code" style="max-width: 150px;"></a></div>'
                         ]
                     }
@@ -324,7 +324,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Your presence is the most valuable gift we could wish for!<br>That being said, if you would like to contribute to our (well-deserved) honeymoon, we\'ve set up a fund where you can send whatever you want anonymously (you just have to make up a name or leave it blank!)<br>Click <a href="https://app.collectionpot.com/pot/3499020" target="_blank">HERE</a> or scan the QR code below.',
+                            'Your presence is the most valuable gift we could wish for!<br>That being said, if you would like to contribute to our (well-deserved) honeymoon, we\'ve set up a fund where you can send whatever you want (including anonymously: you just have to make up a name or leave it blank!)<br>Click <a href="https://app.collectionpot.com/pot/3499020" target="_blank">HERE</a> or scan the QR code below.',
                             '<div style="text-align: center; margin-top: 20px;"><a href="https://app.collectionpot.com/pot/3499020" target="_blank"><img src="assets/QR_blue.png" alt="QR Code" style="max-width: 150px;"></a></div>'
                         ]
                     }
@@ -545,7 +545,7 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Din närvaro är den bästa presenten!<br>Med det sagt, om du vill bidra till vår (välförtjänta) smekmånad, har vi skapat en fond där du kan skicka vad du vill anonymt (du behöver bara hitta på ett namn eller lämna det tomt!)<br>Klicka <a href="https://app.collectionpot.com/pot/3499020" target="_blank">HÄR</a> eller skanna QR-koden nedan.',
+                            'Din närvaro är den bästa presenten!<br>Med det sagt, om du vill bidra till vår (välförtjänta) smekmånad, har vi skapat en fond där du kan skicka vad du vill (även anonymt: du behöver bara hitta på ett namn eller lämna det tomt!)<br>Klicka <a href="https://app.collectionpot.com/pot/3499020" target="_blank">HÄR</a> eller skanna QR-koden nedan.',
                             '<div style="text-align: center; margin-top: 20px;"><a href="https://app.collectionpot.com/pot/3499020" target="_blank"><img src="assets/QR_blue.png" alt="QR Code" style="max-width: 150px;"></a></div>'
                         ]
                     }
