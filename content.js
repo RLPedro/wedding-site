@@ -27,7 +27,12 @@ const translations = {
                 id: 'venue',
                 title: 'Local',
                 blocks: [
-                    { text: ['O casamento terá lugar na Quinta do Outeiro, situada a cerca de 3 quilómetros do centro histórico de Ponte de Lima. É uma propriedade rural que remonta ao século XVIII, com edifícios em pedra preservados e belos jardins envolventes.'] }
+                    {
+                        text: [
+                            'O casamento terá lugar na <a href="https://www.outeirovalley.pt/" target="_blank">Quinta do Outeiro</a> (Outeiro Valley), situada a cerca de 3 quilómetros do centro histórico de Ponte de Lima.',
+                            '<a href="https://www.google.pt/maps/place/Quinta+do+Outeiro/@41.7404926,-8.6070058,17z/data=!3m1!4b1!4m6!3m5!1s0xd25af71b171f0a7:0x107ae684e52950b!8m2!3d41.7404926!4d-8.6070058!16s%2Fg%2F11ckv4rm4z?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Ver no Google Maps</a>'
+                        ]
+                    }
                 ]
             },
             {
@@ -36,8 +41,8 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'Se viajares do estrangeiro, o aeroporto mais próximo é o do Porto (OPO). A partir do Porto, podes viajar até Ponte de Lima de carro ou de autocarro, sendo que a viagem de carro demora cerca de 50 minutos.',
-                            'A partir de Ponte de Lima, segue pela estrada EN203 durante cerca de 3 km até chegares à Quinta do Outeiro.'
+                            'Se viajares do estrangeiro, o aeroporto mais próximo é o do Porto (OPO). A partir do Porto, podes viajar até Ponte de Lima de carro (ca. 50 min) ou de autocarro (do Porto ou directamente do aeroporto). A viagem de autocarro toma entre 1h15 e 1h40. Para bilhetes e horários vê <a href="https://rede-expressos.pt/pt/horarios-bilhetes" target="_blank">aqui</a>.',
+                            'A partir de Ponte de Lima, segue pela estrada EN203 durante cerca de 3 km até chegares à <a href="https://www.google.pt/maps/place/Quinta+do+Outeiro/@41.7404926,-8.6070058,17z/data=!3m1!4b1!4m6!3m5!1s0xd25af71b171f0a7:0x107ae684e52950b!8m2!3d41.7404926!4d-8.6070058!16s%2Fg%2F11ckv4rm4z?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Quinta do Outeiro</a> (Outeiro Valley).'
                         ]
                     }
                 ]
@@ -248,7 +253,12 @@ const translations = {
                 id: 'venue',
                 title: 'Venue',
                 blocks: [
-                    { text: ['The wedding will take place at Quinta do Outeiro, located about 3 kilometers outside the historic city centre of Ponte de Lima. It is a country estate dating back to the 18th century, with preserved stone buildings and beautiful surrounding gardens.'] }
+                    {
+                        text: [
+                            'The wedding will take place at <a href="https://www.outeirovalley.pt/" target="_blank">Quinta do Outeiro</a> (Outeiro Valley), located about 3 kilometers outside the historic city centre of Ponte de Lima.',
+                            '<a href="https://www.google.pt/maps/place/Quinta+do+Outeiro/@41.7404926,-8.6070058,17z/data=!3m1!4b1!4m6!3m5!1s0xd25af71b171f0a7:0x107ae684e52950b!8m2!3d41.7404926!4d-8.6070058!16s%2Fg%2F11ckv4rm4z?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">View on Google Maps</a>'
+                        ]
+                    }
                 ]
             },
             {
@@ -257,8 +267,8 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'If you are traveling from abroad, the nearest airport is Porto (OPO). From Porto you can travel to Ponte de Lima either by car or by bus, which takes about 50 minutes by car.',
-                            'From Ponte de Lima, follow the EN203 road for about 3 km until you reach Quinta do Outeiro.'
+                            'If you are traveling from abroad, the nearest airport is Porto (OPO). From Porto you can travel to Ponte de Lima by car (approx. 50 min) or by bus (from Porto or directly from the airport). The bus journey takes between 1h15 and 1h40. For tickets and timetables see <a href="https://rede-expressos.pt/pt/horarios-bilhetes" target="_blank">here</a>.',
+                            'From Ponte de Lima, follow the EN203 road for about 3 km until you reach <a href="https://www.google.pt/maps/place/Quinta+do+Outeiro/@41.7404926,-8.6070058,17z/data=!3m1!4b1!4m6!3m5!1s0xd25af71b171f0a7:0x107ae684e52950b!8m2!3d41.7404926!4d-8.6070058!16s%2Fg%2F11ckv4rm4z?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Quinta do Outeiro</a> (Outeiro Valley).'
                         ]
                     }
                 ]
@@ -469,7 +479,12 @@ const translations = {
                 id: 'venue',
                 title: 'Plats',
                 blocks: [
-                    { text: ['Bröllopet äger rum på Quinta do Outeiro, cirka 3 kilometer utanför Ponte de Lima. Det är en gård med anor från 1700-talet, bestående av ett flertal välbevarade stenbyggnader och omgivande trädgårdar.'] }
+                    {
+                        text: [
+                            'Bröllopet äger rum på <a href="https://www.outeirovalley.pt/" target="_blank">Quinta do Outeiro</a> (Outeiro Valley), cirka 3 kilometer utanför Ponte de Lima.',
+                            '<a href="https://www.google.pt/maps/place/Quinta+do+Outeiro/@41.7404926,-8.6070058,17z/data=!3m1!4b1!4m6!3m5!1s0xd25af71b171f0a7:0x107ae684e52950b!8m2!3d41.7404926!4d-8.6070058!16s%2Fg%2F11ckv4rm4z?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Visa på Google Maps</a>'
+                        ]
+                    }
                 ]
             },
             {
@@ -478,8 +493,8 @@ const translations = {
                 blocks: [
                     {
                         text: [
-                            'För gäster som reser från utlandet är den närmaste flygplatsen Porto (OPO). Från Porto kan du ta dig till Ponte de Lima antingen med bil eller buss, och resan tar ungefär 50 minuter med bil.',
-                            'Från Ponte de Lima följer du väg EN203 i cirka 3 km tills du når Quinta do Outeiro.'
+                            'För gäster som reser från utlandet är den närmaste flygplatsen Porto (OPO). Från Porto kan du ta dig till Ponte de Lima med bil (ca 50 min) eller buss (från Porto eller direkt från flygplatsen). Bussresan tar mellan 1h15 och 1h40. För biljetter och tidtabeller se <a href="https://rede-expressos.pt/pt/horarios-bilhetes" target="_blank">här</a>.',
+                            'Från Ponte de Lima följer du väg EN203 i cirka 3 km tills du når <a href="https://www.google.pt/maps/place/Quinta+do+Outeiro/@41.7404926,-8.6070058,17z/data=!3m1!4b1!4m6!3m5!1s0xd25af71b171f0a7:0x107ae684e52950b!8m2!3d41.7404926!4d-8.6070058!16s%2Fg%2F11ckv4rm4z?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Quinta do Outeiro</a> (Outeiro Valley).'
                         ]
                     }
                 ]
