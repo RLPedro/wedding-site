@@ -60,7 +60,7 @@ const translations = {
                 id: 'ceremony',
                 title: 'Cerimónia',
                 blocks: [
-                    { text: ['Se o tempo permitir, a cerimónia terá lugar no jardim. Será realizada em inglês e os programas impressos terão traduções em português e sueco.'] }
+                    { text: ['Se o tempo permitir, a cerimónia terá lugar no jardim junto ao salão de festas. Pedimos aos convidados que cheguem pelas 15.00, altura em que haverá bebidas, refrescos e aperitivos à vossa espera. A cerimónia iniciará pelas 16.00, será realizada em inglês e os programas impressos terão traduções em português e sueco.'] }
                 ]
             },
             {
@@ -281,7 +281,7 @@ const translations = {
                 id: 'ceremony',
                 title: 'Ceremony',
                 blocks: [
-                    { text: ['If the weather allows, the ceremony will take place in the gardens. It will be held in English, and printed programs will include translations in Swedish and Portuguese.'] }
+                    { text: ['If the weather allows, the ceremony will take place in the gardens just next to the dinner hall. Please arrive by 15.00, when welcome drinks, refreshments, and snacks will be waiting for you. The ceremony will begin by 16.00, it will be held in English, and printed programs will include translations in Swedish and Portuguese.'] }
                 ]
             },
             {
@@ -502,7 +502,7 @@ const translations = {
                 id: 'ceremony',
                 title: 'Vigsel',
                 blocks: [
-                    { text: ['Vigseln kommer att äga rum i trädgården bredvid själva festlokalen, om vädret tillåter. Den hålls på engelska, men det kommer att finnas programblad med svensk respektive portugisisk översättning så att alla kan hänga med.'] }
+                    { text: ['Vigseln kommer att äga rum i trädgården bredvid själva festlokalen, om vädret tillåter. Vänligen anländ senast kl. 15.00 – det kommer att finnas dryck, uppfriskningar och snacks på plats innan vigseln börjar kl. 16.00. Den hålls på engelska, men det kommer att finnas programblad med svensk respektive portugisisk översättning så att alla kan hänga med.'] }
                 ]
             },
             {
